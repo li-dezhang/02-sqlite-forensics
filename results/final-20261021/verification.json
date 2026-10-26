@@ -1,0 +1,6 @@
+{
+  "run_id": "final-20261021",
+  "checks": "record-level rescoring, denominators, input hashes, complete executions, figure files, README/report comparison tables",
+  "passed": true,
+  "matches_published_counts": true
+}

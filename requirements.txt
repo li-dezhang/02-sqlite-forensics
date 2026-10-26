@@ -1,0 +1,15 @@
+ConfigArgParse==1.8.0
+contourpy==1.4.0
+cycler==0.12.1
+et_xmlfile==2.0.0
+fonttools==4.67.0
+kiwisolver==1.5.1
+matplotlib==3.11.2
+numpy==2.5.4
+openpyxl==3.1.5
+packaging==26.3
+pillow==13.0.0
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+six==1.17.0
+sqlite_dissect @ https://codeload.github.com/dod-cyber-crime-center/sqlite-dissect/zip/6c0a742d70c27c3b48fd0bd275eac6bf21f96737#sha256=dd5c36245835d486f5c2882e4764638aa5ac7c27d8f0a74c9fa5fac45d8969ac

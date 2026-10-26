@@ -1,0 +1,63 @@
+{
+  "run_id": "final-20261021",
+  "examples": [
+    {
+      "case": "0C-09",
+      "tool": "undark",
+      "candidate": "1",
+      "outcome": "partial",
+      "gold_index": "5",
+      "values": "[20006, \"Sophie\", \"Beck\", -130525764.60434, 2055417409.658203]",
+      "gold_values": "[20006, \"Sophie\", \"Beck\", -130525764.60434, 2055417409.65816]",
+      "provenance": "CSV row 2; rowid=6"
+    },
+    {
+      "case": "0C-09",
+      "tool": "undark",
+      "candidate": "0",
+      "outcome": "partial",
+      "gold_index": "9",
+      "values": "[20010, \"Leonie\", \"K..nig\", 348530428.180725, 4368401104.290039]",
+      "gold_values": "[20010, \"Leonie\", \"König\", 348530428.18072, 4368401104.29022]",
+      "provenance": "CSV row 1; rowid=10"
+    },
+    {
+      "case": "0C-03",
+      "tool": "sqlite_dissect",
+      "candidate": "1",
+      "outcome": "incorrect_or_unattributed",
+      "gold_index": "",
+      "values": "[24942, \"n\", \"\"]",
+      "gold_values": "",
+      "provenance": "0C-03.db-users.csv; offset=7863; Freeblock"
+    },
+    {
+      "case": "0C-03",
+      "tool": "sqlite_dissect",
+      "candidate": "",
+      "outcome": "not_recovered",
+      "gold_index": "0",
+      "values": "",
+      "gold_values": "[20002, \"Lukas\", \"Wolff\"]",
+      "provenance": "XML reference"
+    },
+    {
+      "case": "0C-01",
+      "tool": "undark",
+      "candidate": "0",
+      "outcome": "incorrect_or_unattributed",
+      "gold_index": "",
+      "values": "[\"1308622848\", \"36956\", \"-14497748\"]",
+      "gold_values": "",
+      "provenance": "CSV row 1; rowid=-1"
+    }
+  ],
+  "numeric_mechanism_check": {
+    "database": "0C-09.db",
+    "offset": 7996,
+    "bytes_hex": "41dea0cb906a1f4b",
+    "reference": 2055417409.65816,
+    "integer_float_integer_bit_reinterpretation": 2055417409.6582031,
+    "tool_export": 2055417409.658203
+  }
+}

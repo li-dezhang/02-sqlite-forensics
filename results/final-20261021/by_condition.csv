@@ -1,0 +1,5 @@
+tool,condition,cases,tp,fp,fn,precision,recall,f1
+undark,partial_deletion,8,0,13,71,0.0,0.0,0.0
+undark,all_deleted,2,0,16,30,0.0,0.0,0.0
+sqlite_dissect,partial_deletion,8,62,124,9,0.3333333333333333,0.8732394366197183,0.48249027237354086
+sqlite_dissect,all_deleted,2,16,26,14,0.38095238095238093,0.5333333333333333,0.4444444444444444

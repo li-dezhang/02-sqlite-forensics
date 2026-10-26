@@ -1,0 +1,11 @@
+{
+  "run_id": "final-20261021",
+  "source": "comparison.csv and per_case.csv in the corresponding results directory",
+  "metric": "strict content-only complete-record matching",
+  "files": [
+    "performance.png",
+    "performance.svg",
+    "recall_by_case.png",
+    "recall_by_case.svg"
+  ]
+}

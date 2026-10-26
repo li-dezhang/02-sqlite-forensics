@@ -1,0 +1,2804 @@
+{
+  "status": "acquired",
+  "dataset_version": "2.0",
+  "source_url": "https://digitalcorpora.s3.amazonaws.com/corpora/sql/sqlite_forensic_corpus_v2.0.zip",
+  "retrieved_at": "2026-10-21T04:17:41.059942+00:00",
+  "archive_bytes": 5370116,
+  "archive_sha256": "8d71ff0ca595716b60ca7b6e9f0c7789e4612383f230e3742c9fc06ad39e95d8",
+  "file_count": 557,
+  "types": {
+    ".txt": 6,
+    ".db": 141,
+    ".xml": 141,
+    ".sql": 141,
+    ".db_recovery": 64,
+    ".log": 64
+  },
+  "files": [
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-01.db",
+      "bytes": 8192,
+      "sha256": "8438a5533586e7e0f38628330d615aeaa057ebb9698c1103424d8128e417875e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-01.sql",
+      "bytes": 690,
+      "sha256": "ae65683fa6940e8e89d72f4140dcae4b721fdb761b963761173052a8ecf19130"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-01.xml",
+      "bytes": 8607,
+      "sha256": "3e3ea8c7a9c560d4c4629a023a43acd0acc28d2f6378df7fc089d40136ffffa0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-02.db",
+      "bytes": 8192,
+      "sha256": "508fb80ce083bc6ad79d2921b1d35d998724e808a72d05476671010b1265043b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-02.sql",
+      "bytes": 704,
+      "sha256": "73001a01b6fb8be9c9abb25fb2686074a850aa2175704484ba6577f7aedec8ab"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-02.xml",
+      "bytes": 8625,
+      "sha256": "3f16e2ad1b1545360fa4d6b401050fa0622c494d046d8deef96ae21f249b84ce"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-03.db",
+      "bytes": 8192,
+      "sha256": "040d93c3416f270dd9aa3d20b4cee34d35f747a472b0a4d4a5bd55db124163ad"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-03.sql",
+      "bytes": 703,
+      "sha256": "c027defc2798d7d787e539e6eeee1367ed5b06d5286469091760a6024c5d569a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-03.xml",
+      "bytes": 8624,
+      "sha256": "21e6254983f5729d96e6085ea620873d8edcca98c4b026f2e194c056aac4d56f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-04.db",
+      "bytes": 8192,
+      "sha256": "b2e337d07590a32b36b0117aa36930e628cb4d8fb1640c5c23f64dd9de106ca0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-04.sql",
+      "bytes": 686,
+      "sha256": "53a675682a9bb015b854128fc1d6aca6d602196ce085aa1920fc6776a48b944a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-04.xml",
+      "bytes": 8607,
+      "sha256": "9bd1615fd1df111845c456cd5c7543c4e1221b8393fa35544491c7054f0c5e04"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-05.db",
+      "bytes": 8192,
+      "sha256": "3dccc377ca17e1611e013f1799e9b110f41752b462bbae55a2c6773f9627aea9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-05.sql",
+      "bytes": 678,
+      "sha256": "6f29591baf0299a8c578269ec2f87ae12b2e4fe6030ba724fdc22d755a15dc83"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-05.xml",
+      "bytes": 8584,
+      "sha256": "225df8873781bea393f82ec95da2d8a6119084fe59c3a88215f7c0ae5cfaee43"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-06.db",
+      "bytes": 8192,
+      "sha256": "686b5d89959779fdda17b65e8876daba4575b0f5d5442ef89e307211ec09f62f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-06.sql",
+      "bytes": 687,
+      "sha256": "0da4256e662e9c2a67a5456ade6183c4c730af8ac6cb55514627a28b31d8246c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-06.xml",
+      "bytes": 8608,
+      "sha256": "15ed75e8bd07cc160d17f1b360a87f5f989cfc968bf9e16c59146aae61f0235a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-07.db",
+      "bytes": 8192,
+      "sha256": "7bb4c198ca08c73dab89fe8e906e3a461064177c53870cb017fcbecbe177ef29"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-07.sql",
+      "bytes": 692,
+      "sha256": "610b5bfc060bd06cb65926cc8ff00bbc7710131ba2f999afe6d212ce4ee492db"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-07.xml",
+      "bytes": 8613,
+      "sha256": "f51013c733c931bb5d8210fbf17f051184bcee98b968fafce110cb225c113ac4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-08.db",
+      "bytes": 8192,
+      "sha256": "5f816bb66abe8da4b567f899e87cdf106fcfa16d1bdc514b195aaddadf41c600"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-08.sql",
+      "bytes": 686,
+      "sha256": "87133e7c82b60cde985aaa8ed98ac26739f6ff5fd5fc39ec4895912a7a108894"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-08.xml",
+      "bytes": 8607,
+      "sha256": "d1e3a0d1894f9d34c26add031dbd39e715a4f72c19bd649d4ad9d1f0fec02978"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-09.db",
+      "bytes": 8192,
+      "sha256": "0fd386798c79ba3878df6a6d3ae5efd38123015af58137b10db71a0f0322cd52"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-09.sql",
+      "bytes": 692,
+      "sha256": "e27061137217214b7bffd52875018b948c096efe247edcf097b8044ec1819444"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-09.xml",
+      "bytes": 8613,
+      "sha256": "b240e64f756696b23607da9402f5f85fbbb2f6ba783c6a1a694eec70997c194e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-10.db",
+      "bytes": 8192,
+      "sha256": "b97dd8a2299938cf5abf7575252bfa8acfc9f819a833bdb6b68a7ba5c972163c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-10.sql",
+      "bytes": 692,
+      "sha256": "479337207080f35795a1c38b787117affe1f9472dd2deef827b7d855695677cf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-10.xml",
+      "bytes": 8613,
+      "sha256": "06691a381084ec77cffe3874d7af867b0e4d3540939162e0173319021d7e10b8"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-11.db",
+      "bytes": 8192,
+      "sha256": "a1e9ccfd54c07a181eb0e2cd0b1fee25449ef76eb6466a1fc344ee75b0ce392a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-11.sql",
+      "bytes": 686,
+      "sha256": "19b9a3b21b3487088ac48c631ce9742f2da5f11e792a3517a723dba12e2e96d0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-11.xml",
+      "bytes": 8607,
+      "sha256": "1f74c988742b1a2b1332947b092628f820ee2ed7f08b2e2bacf55cb5583d59f6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-12.db",
+      "bytes": 8192,
+      "sha256": "e6c407672274da7f1fc80a0b4619d538f5aec962c6a07a2e982e29bdee71dc13"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-12.sql",
+      "bytes": 686,
+      "sha256": "c868dbf9e94e876c857bbc5fcb3e973a9be08b52fe16539b8430387e6f9571ea"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-12.xml",
+      "bytes": 8607,
+      "sha256": "b38c2398e120aff7a530040c089a5ee05dd0971eeff245e1e285d76286f7e7d2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-13.db",
+      "bytes": 8192,
+      "sha256": "7b575378acffba67954d8b03aaf8c880beae7068afe2f6f306afba5d1434b019"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-13.sql",
+      "bytes": 706,
+      "sha256": "eae0f4ff669770a65987d5485b65eeaced2fb205f4d7284cd90e70d5c7bbc6a7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-13.xml",
+      "bytes": 8615,
+      "sha256": "36baf63ad3886fe74532b907b07cff0703e8423f137b121439af0b9a609af3c1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-14.db",
+      "bytes": 8192,
+      "sha256": "7cd5c43dbfdb50fb5f12cff20192851e5ecf2495321f14c95c369695740d85a9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-14.sql",
+      "bytes": 695,
+      "sha256": "5b60fa75ca611ea9fa897f5cf20c0f21de50ec2779b1d4985a236759ae4522bd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-14.xml",
+      "bytes": 8616,
+      "sha256": "e089cbd41cdb2b4fea22ee6b8280b152710011f079719ff22cbb646483671c86"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-15.db",
+      "bytes": 8192,
+      "sha256": "f9105947ac49bbde17449bc895ea8be0bf5d90db4e66fab3e9d12f71cbc53df7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-15.sql",
+      "bytes": 681,
+      "sha256": "2df88784a2396f7966c8334457b56933cd937a8b5d6f786695ff14008c50d554"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-15.xml",
+      "bytes": 8602,
+      "sha256": "c62a0c3118c7b8f676bd7ab2ebd90d9118cb56a189f943b09167d11315c3b3e9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-16.db",
+      "bytes": 8192,
+      "sha256": "72d647d90988d1853452f2a5f65fd0d99dbcb6e2ade7e43249f0e54a55209215"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-16.sql",
+      "bytes": 688,
+      "sha256": "915c22212b885fe566fbdf9dfc5931cd972e2fdb4354388365da257e9adaeec1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-16.xml",
+      "bytes": 8609,
+      "sha256": "f42bbb082c1600f9eddf0733c99dcd6f8b0b40466bf4c446db35c6c5080173bc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-17.db",
+      "bytes": 8192,
+      "sha256": "976ca7d43405afb722326b20a78b03e3464f7388f7ab6e021fee31e4ea0eb840"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-17.sql",
+      "bytes": 691,
+      "sha256": "e4e34af2da09207890a503d685a5a25d27fa4be9ad1959355577347a9684e554"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-17.xml",
+      "bytes": 8612,
+      "sha256": "9f533f1a60a96185c505d166849f8f8b645d7d0bb591009c1981f7f46ba392dd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-18.db",
+      "bytes": 8192,
+      "sha256": "8021f1b2dff2f4f2cb88a49b3507b6422bcb3c82957af4785cd542d20cf683bf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-18.sql",
+      "bytes": 688,
+      "sha256": "60a79a8a07ac1a84aedcdf4a1f7a24e0e112a7cf3e2d3bf825fbc8f2349a8f7e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/01/01-18.xml",
+      "bytes": 8609,
+      "sha256": "64ff685e1b86dd543c70d65a5fd92f50e8c4aed1c3215e7a3188226808a27c09"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-01.db",
+      "bytes": 8192,
+      "sha256": "019f27f8b0259c52681e4393983b0d7525e3411cddb31aedfaff8a4be351246c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-01.sql",
+      "bytes": 488,
+      "sha256": "ef71360bb93e70ab1da5a48d0ff705ab20fdcb97d8dd83bc032a8fadc8dce72b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-01.xml",
+      "bytes": 5570,
+      "sha256": "c509125d5610cf9304d911aeaf13f77f989247346117992c3fc7ce38dc082efc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-02.db",
+      "bytes": 8192,
+      "sha256": "d432c47d3a3226c286a425535465260c24ce04aeb464d6030221d63f2c78a454"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-02.sql",
+      "bytes": 509,
+      "sha256": "5fd114451b0df67de68d2c5f6e3d6d29d21b9046592b6194f1b80af99b463efb"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-02.xml",
+      "bytes": 5681,
+      "sha256": "3bb8b4741b7622cfce699584723298a981fea4324c72713cec9ad4db4a89e1b8"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-03.db",
+      "bytes": 8192,
+      "sha256": "10d81fe9e5c22bafa0f291c55743136b370f9e6699aa8781c0f25bf7078c6abc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-03.sql",
+      "bytes": 491,
+      "sha256": "097dd22ebb615958f1ad67561992c90118ccff8e6fccd9b47987cb0adaf343a7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-03.xml",
+      "bytes": 5468,
+      "sha256": "4635b7ecc6ff3b545cfeac38355b304d3dc04c64b1d70d5c1475d876765a6395"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-04.db",
+      "bytes": 8192,
+      "sha256": "c90678735d0eca620cc7fd8150abe48183338bece845901780a5e730b135de08"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-04.sql",
+      "bytes": 468,
+      "sha256": "c760513fea9b04bd06bdf27d1549bac268f152f96a1a9a24fa556e918ab453a1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-04.xml",
+      "bytes": 5444,
+      "sha256": "231978853cfdf30f02c79215bca9fc014400b17e37a41fbf6c065ebd3e8dc869"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-05.db",
+      "bytes": 8192,
+      "sha256": "40bce828ca90062bc2a44e0a3374fba262b3dd2435243bf39c0475776ca210ca"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-05.sql",
+      "bytes": 473,
+      "sha256": "d93a2305d3c41e69d7b4a729175ea6beecb4ab46c0587fd0af99396ed3abeb09"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-05.xml",
+      "bytes": 5447,
+      "sha256": "a339d5b28df8b872a416106a5667f69d761843a5d90ad8b33ccc12c229063b8d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-06.db",
+      "bytes": 8192,
+      "sha256": "f4deb54e42bb55af864dbbef8e495afaac2649528d9f1babc77a57726d2cb95d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-06.sql",
+      "bytes": 586,
+      "sha256": "337832739ff762ff9172457baf58c8aefecc8dfe96fad549f0687c31fe4c51be"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-06.xml",
+      "bytes": 7081,
+      "sha256": "a84ca3c43cfcd86785eb6e6e7fea890f603f1dbce41b9f28550340ea540ec92b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-07.db",
+      "bytes": 8192,
+      "sha256": "352cef7e138ec3f65ebff036851e5babf711bb57937443ba233fa5de46c65dd6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-07.sql",
+      "bytes": 460,
+      "sha256": "e1065e1efb0a66a6f1931a717375ad27fc39aecaf69f8d1f9b95a4674fe29c5a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/02/02-07.xml",
+      "bytes": 5443,
+      "sha256": "cce2d3a6aca7b690e1ef435d798689f47227ff18b24f9fa562a30ae96dea6f9b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-01.db",
+      "bytes": 8192,
+      "sha256": "a9a8dcb506c722081bc6e5483465c5f63add199a45b00b9495284690ef65def5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-01.sql",
+      "bytes": 699,
+      "sha256": "3a5233d93bdbd76a07b48f54805aae8a27f42dfefb3b27626d53242f88e1127d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-01.xml",
+      "bytes": 8598,
+      "sha256": "24a4b72e8dd6b3a37dd34f40967c1e1c267b3b0b602f02ef09667cabfd26981a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-02.db",
+      "bytes": 12288,
+      "sha256": "7ea933d7082d3ec0cdc9f5ca3e39624d80c0da495a365d520424a69a1937f138"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-02.sql",
+      "bytes": 663,
+      "sha256": "b1f62a402fe03ed303933cfb0da911c415133680e9a8bd6e71df8c7a4513b9c1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-02.xml",
+      "bytes": 8614,
+      "sha256": "3cb80eb98956e785f3d6875d473e43b254689d6b73a218ee35f5617700d200b5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-03.db",
+      "bytes": 8192,
+      "sha256": "930a91e3fbd7b6ea56a76ad29b7842a7065f8b9dc95393a684936d4143ddd82d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-03.sql",
+      "bytes": 666,
+      "sha256": "8035a505d23376342b551d4fea283f2f6664ac44c52682c249e6fcb48e16e1fc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-03.xml",
+      "bytes": 8597,
+      "sha256": "aff4845935f53f7ddeebe1b3c26f506c572f8f0d54baa4bb129ed62090a2d3b5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-04.db",
+      "bytes": 12288,
+      "sha256": "446542de2d2c0aa4df04462c1fd618968e281fdb0164eeb7326dddf0092010ef"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-04.sql",
+      "bytes": 659,
+      "sha256": "62754ac80754cbb9d82c57222c6b5b69199dc6a3be4a53690b3d5cd664a4e26b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-04.xml",
+      "bytes": 8590,
+      "sha256": "09be05de34fd60377c8d4ac76af9c65cc5db89017aea6667f7bffbfc7acb4ea9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-05.db",
+      "bytes": 12288,
+      "sha256": "c7aa1848907755642fbfe46c216bd782a08c829077ade26714eaaada95b723d4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-05.sql",
+      "bytes": 739,
+      "sha256": "36d0fc87740b6289b0f36d5a49fdb270ad652be441d62afe56f52bf5a8573cf5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/03/03-05.xml",
+      "bytes": 8593,
+      "sha256": "7f80d9628bda059c6e5df611a8ee53073d7ec3621caf2bcb59373c5a1c5a96b1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-01.db",
+      "bytes": 8192,
+      "sha256": "26505b98942113d49637d71a31e63797fac2d822e618342febdee7b4a58bcab2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-01.sql",
+      "bytes": 702,
+      "sha256": "6b424a72cf0f8feb5d0e6336b6e85e65bc34b7cea3f61cc30a8316da3445f076"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-01.xml",
+      "bytes": 8607,
+      "sha256": "552f729d9f5a4e7b006b553cb267589b84473999242b502a8a8fdaf8cda024aa"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-02.db",
+      "bytes": 8192,
+      "sha256": "2b3fe564dd9ab4b1d4b0f7b008ac42cec8cafd0dd7899b5974a69fdcc771d136"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-02.sql",
+      "bytes": 714,
+      "sha256": "de3247bba776dacdcb8f26943339807637a233f46edb6a03688c22198a1fdac9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-02.xml",
+      "bytes": 8619,
+      "sha256": "57bd4113fa0e999aa4ab9568f28cdd56849a30ebafed6da65bb26fa950930237"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-03.db",
+      "bytes": 8192,
+      "sha256": "d1cd2cab7d7a44630769f3cffbdf84aed5f427f5c1062b179a8b36e0e871945e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-03.sql",
+      "bytes": 717,
+      "sha256": "c5aeca26a923c7c308c5e9b80dc5a67992b5f8f37aa6fa6799ecc85a8dd277bf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-03.xml",
+      "bytes": 8624,
+      "sha256": "b216dba20bd267d49536ec88fc9e70a5c689a91de47c736e5ef72e975138b63d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-04.db",
+      "bytes": 8192,
+      "sha256": "9c4dbb017b4d468a2805e6d6ab5c48d1872bd88ee440f82d0fa7c98fd65a2d87"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-04.sql",
+      "bytes": 748,
+      "sha256": "ca53888ea5dbbaa3f18ae6967245407c5c6cf3c89cf594a02c537fcd539f84eb"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-04.xml",
+      "bytes": 8655,
+      "sha256": "977a9767b9860440eba57cd3404709c5f3b8fa983a798530d32ab81c15c13fbc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-05.db",
+      "bytes": 8192,
+      "sha256": "30b48a21e495f6e5f825c8c679845178c087342e556098310bfaea42f65cbd33"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-05.sql",
+      "bytes": 757,
+      "sha256": "a30e7da58ca61242ca23e9978b40c078b7028975c128d822984137bae21d0469"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-05.xml",
+      "bytes": 8662,
+      "sha256": "b7f8dcb7ab0d97d82ae23f512d1c8926931d4e8cc2f4d737763e5b1ddb3de687"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-06.db",
+      "bytes": 8192,
+      "sha256": "e440807b1c711b269cee03175bcf9ef8b0e05f7ae71931d337452dc8b7526f93"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-06.sql",
+      "bytes": 758,
+      "sha256": "13420d561d6d5ec86d9737190cce1ee964874ca8a70907598eadc69e61a5a868"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/04/04-06.xml",
+      "bytes": 8662,
+      "sha256": "ae5ed3116cba523c0a49f662b740d37f22fa0fede7e084716e9f5e163824face"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-01.db",
+      "bytes": 8192,
+      "sha256": "48253302e0951fd0458faa3e33d686b759c18bd059ea1601ef044d36288e0656"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-01.sql",
+      "bytes": 662,
+      "sha256": "20afda9003545aeb991401e9eecb134591340b29aad152d5ca93a9de75a6e95d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-01.xml",
+      "bytes": 3650,
+      "sha256": "3b9409358859253981d35449e604fdea76749605b21d6f63c4a2f7eb9a471d83"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-02.db",
+      "bytes": 8192,
+      "sha256": "5a2124514afb5488d6dd958de53bb83cf59a9927a5c8a17b3daa7de22dd76377"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-02.sql",
+      "bytes": 676,
+      "sha256": "d3696783d5795c5c29c05ff9e51a321af487b027a24b87d3808f5c91adcac638"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-02.xml",
+      "bytes": 5080,
+      "sha256": "6a70eb60d8c608b708c9521404e0fd4644d4f6d9678f75c6930fa3890287d829"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-03.db",
+      "bytes": 286720,
+      "sha256": "177b8674726a101876bbb4ae730ad10e9c2f690bc4c67abbd915d83634a9938d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-03.sql",
+      "bytes": 321229,
+      "sha256": "d098c0629f68888d3db62af3ec415488ea7a77bbc8e25a63f81067efb75dcf34"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-03.xml",
+      "bytes": 4145344,
+      "sha256": "1ae190ffdfa0e845079c9d8c2a70a596e80b16814646ecf1236e05ab280ec8cc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-04.db",
+      "bytes": 12288,
+      "sha256": "6d90947cca38e668d9ba81e7fdf28c1646e941c91f995c465588da14845a6d45"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-04.sql",
+      "bytes": 656,
+      "sha256": "39c7590f0f89e3132e9f93e7b3afeef58196b24223e1fa40c9a0443c5b82406f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/05/05-04.xml",
+      "bytes": 7625,
+      "sha256": "cde28e4a1d55f02b4b2004bcff03945369735280d45bb463eefa9bd664a95f1b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-01.db",
+      "bytes": 16384,
+      "sha256": "10527118bb5081c61989e74e7c9de9b11298bc0c18a94d854a1ef4b42b8d26a8"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-01.sql",
+      "bytes": 794,
+      "sha256": "8caa41abb8381cada90a0f049535d946b048049bf7c39c69370324b3ee7bb0c5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-01.xml",
+      "bytes": 10300,
+      "sha256": "d2db4ffffeed123093fef7b06c5f568774a6c7e021ff17a64bdab1e5636a606c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-02.db",
+      "bytes": 24576,
+      "sha256": "729c1b6364f70d842e013f4a33247510520dda4094467e8ec63bb6e1a8f9d9e5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-02.sql",
+      "bytes": 10547,
+      "sha256": "1485a334c4f45ec1095b56e4ad6f6049f38a6f7802eb9a8111e185d4877b1d80"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-02.xml",
+      "bytes": 148495,
+      "sha256": "72fbc9dee470172ac3ba0872ff63ce17f96f62f860e1e3b1ac279e7922a15c52"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-03.db",
+      "bytes": 28672,
+      "sha256": "d48d54829989d37f49b57c3e55460fb9d5336b7d38b165f7258436131e006319"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-03.sql",
+      "bytes": 477,
+      "sha256": "56257492c77390a61dfd910511d48c769ef39ceb38bde020cac865d9e3f0f6ca"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-03.xml",
+      "bytes": 5425,
+      "sha256": "9d2f78145898c18ff5eafdee14d965454703cff44278025211e65288172a4c5b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-04.db",
+      "bytes": 2048,
+      "sha256": "51e91b14a68ad77d47a67e88f2498ca1214166774b41ca54effecccd77278d2a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-04.sql",
+      "bytes": 273,
+      "sha256": "3bb0295003ded2f6f32517f8bfdcfc41f2c272e5570632725ae9451a75485282"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/06/06-04.xml",
+      "bytes": 2945,
+      "sha256": "c78c561d7422f6553e68fc1ddbffdb72a2044ceff45ca76ea253355d18d07f7f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-01.db",
+      "bytes": 81920,
+      "sha256": "6e110c0663be9500e817ab0d6153f0f1aaa7d8831e7e17a05e2565abbbf9e4da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-01.sql",
+      "bytes": 55048,
+      "sha256": "39dc02a95d70e8107d68cb2d55d3bc16ac53d1a1661c05413cc3d9f62b14e248"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-01.xml",
+      "bytes": 68276,
+      "sha256": "45148e292c311ae670054f3f349b2eb1fe9539718d11acc854ff5a17be49353b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-02.db",
+      "bytes": 90112,
+      "sha256": "96a4d031c192bfb6fd5575a28007b61e4f346001973fd6aea6125a52e5db46ca"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-02.sql",
+      "bytes": 78975,
+      "sha256": "f91910f44aa441303b9139294d0897e050e39cbc89671ca6d8617cff49811a73"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-02.xml",
+      "bytes": 164296,
+      "sha256": "00615cda99ff2dc994bf560abbc81830020bdefcd5fd533b623bc6dd36800bf6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-03.db",
+      "bytes": 12288,
+      "sha256": "69bf83b03a15fb86a190838c3403fa12a56e2f269992cefc568b58c931f05027"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-03.sql",
+      "bytes": 4632,
+      "sha256": "84b828aa8a568e0272d5794d4a74d5aef568345ab77febe47361806cb979f96b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-03.xml",
+      "bytes": 8947,
+      "sha256": "a23df03c5266bba052912bd570f56b2fcfc691a3bc9346f47b055b69e992e358"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-04.db",
+      "bytes": 12288,
+      "sha256": "d7eda4a14cf9dbc4361f519494996755fcf30baea068f26dcd28be3d7d75bee0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-04.sql",
+      "bytes": 10729,
+      "sha256": "1eb792d31e1703c2011f8f0c4d2d9f1a46311ad8c26ed7cb2d56ed85bdfb86e6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/07/07-04.xml",
+      "bytes": 41546,
+      "sha256": "0ef6ce16ae858b660d7c5626fec87544c94abc1630f6e0913775f3f5e926e2ea"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/08/08-01.db",
+      "bytes": 8192,
+      "sha256": "6089df2e698de7e55bb88064dea83ed7c5cd313a466434b7e243a93ada7de5ad"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/08/08-01.sql",
+      "bytes": 1592,
+      "sha256": "594fcc45eed6c065a8826bf9ed3b0725dd08e0f87eb8e5396e77d1bb530483a5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/08/08-01.xml",
+      "bytes": 17687,
+      "sha256": "09e08a27852ae091ddd815eddc564bebd87ec62350f05448c89f9b55e6335225"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/09/09-01.db",
+      "bytes": 118784,
+      "sha256": "651f8c0e9aa5fed80bc11f4a1db95d233d5a1b49237c280f1ece0f9b0df06914"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/09/09-01.sql",
+      "bytes": 193059,
+      "sha256": "265c2f5f1ccd54e7852531838ac26a4d780a2bff64da222810e69888c465ba05"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/09/09-01.xml",
+      "bytes": 2875504,
+      "sha256": "e175569d90fd4d8659e4d8cb96ba40cef8b40024cb9bc3ed67c415ac3aa95e34"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-01.db",
+      "bytes": 8192,
+      "sha256": "c640727d2fe3e269d196e64c25cf896e9fa21c2626d4f6b88398274c4e1691d1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-01.sql",
+      "bytes": 1581,
+      "sha256": "c14a301458a089186b99e6b40e22ae5c285d2da17775061821c869e664c150a8"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-01.xml",
+      "bytes": 17672,
+      "sha256": "0a75813f588a296699e5a53011fddbdc47b091e44027910aca9589269e7bc945"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-02.db",
+      "bytes": 8192,
+      "sha256": "030fd0a82fa37707f448e90a21bc178f120b018b009999daaefdc61d04b24d24"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-02.sql",
+      "bytes": 2341,
+      "sha256": "df906a58e065e6f3af9be7b1b4a95fa9e9d56580ba5001e500f399a087a3e679"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-02.xml",
+      "bytes": 17931,
+      "sha256": "f9f9ebd78d749ffdfbdb7ad503ec4c22e259bb2b16ddc45a9aa1b73af55ec625"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-03.db",
+      "bytes": 12288,
+      "sha256": "e78f44ae5f63d8f0c60ca15725c7f0bbccd170eb34459d649335b265a93f60ab"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-03.sql",
+      "bytes": 1832,
+      "sha256": "4b75d2e835f632b9eb66f9fc1850e6508ef1a362a6aa59ee836432282d16246b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-03.xml",
+      "bytes": 19462,
+      "sha256": "2b61b40beca0bd277767b7cce7308dff5176d4fd26ad12e2a7351815853a9a58"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-04.db",
+      "bytes": 12288,
+      "sha256": "819230aa1562f462e4d1ee641026457d2ccb0ecaa838d877ccd7777a4c97589c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-04.sql",
+      "bytes": 2227,
+      "sha256": "b1d19c4ce7f64cd0154412281cbc3e19a187a89e83139e133025a29ffe600eb7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-04.xml",
+      "bytes": 19575,
+      "sha256": "876ec998f68829d96039e14fd4db6b02afa60d19f28982cb5d2cc82af76c7cb6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-05.db",
+      "bytes": 12288,
+      "sha256": "c7fa72c0b0578d76e43f13605dc993bfe611e04cfca505b0ed9cda4e35cf59ab"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-05.sql",
+      "bytes": 2583,
+      "sha256": "f76723f764270ad8e3722810aa403dd033689e73de57036b91ac6269e6f69e66"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0A/0A-05.xml",
+      "bytes": 19682,
+      "sha256": "5760906a18fd43314dee76e79a3b257a89eaa3a9c27fb849ea1e795f9b5e9fb0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0B/0B-01.db",
+      "bytes": 8192,
+      "sha256": "b26bfe098a41111bcd7b82d74beee1638adced61a966fce0d75f643121aeacc6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0B/0B-01.sql",
+      "bytes": 1505,
+      "sha256": "eb6a246ee81410774cabc57a692088b7ceec049f720e2c1a9e03ac686709f45d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0B/0B-01.xml",
+      "bytes": 15792,
+      "sha256": "cd611d7191d3e736ede1e330619929a0515648cb0080f7bb4192948c6cf06683"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0B/0B-02.db",
+      "bytes": 16384,
+      "sha256": "e4bf6afe03cd55e16d2dec7b3ce5efba24ea6262c8c6c64e0b1bc0a963679a8c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0B/0B-02.sql",
+      "bytes": 3140,
+      "sha256": "929758d1441d153094cfff20e55141beaf2ad7ea327d60d5d8b038d0ace0c748"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0B/0B-02.xml",
+      "bytes": 33903,
+      "sha256": "7beebd45a6bab2a7c0407a893064cb8fc20d5901e0c500cab99d088634df64ef"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-01.db",
+      "bytes": 8192,
+      "sha256": "3a7a5ae0a1037ee6fbfbef5a797a9b00c181364126a755982afa98934067c199"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-01.sql",
+      "bytes": 1783,
+      "sha256": "6cca4dd9b8c6192ad3e4a5c4602c989aef4cf89bc1fa1f292ede8eb26d4a5f29"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-01.xml",
+      "bytes": 17827,
+      "sha256": "12eba15bdaca7697c98fc4f19e960ba151b23ae8bf384d6a1db89d75abed846e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-02.db",
+      "bytes": 12288,
+      "sha256": "07c3d1d2e5bc40995635ab0a13d8eb6e938a2ba8d24e7e39c20ff3b4eff63aed"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-02.sql",
+      "bytes": 3441,
+      "sha256": "0386c9aaa95ade42351d64a2ff3a521ce1ea7c91af2c32cbd984551d2049a36b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-02.xml",
+      "bytes": 34314,
+      "sha256": "775c58cf900406133570e380d5fb88f538f28cc724b0b129e9d43278cb8f2586"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-03.db",
+      "bytes": 8192,
+      "sha256": "a143908baf8d5e6ac8ee259a7005162ec51886b124b473626acb07967a2d6a32"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-03.sql",
+      "bytes": 1179,
+      "sha256": "c9c82ca29ef6b41637fbf5cd4fb97aedcbc38cbeacc7d0f46151ee2a0ecb9199"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-03.xml",
+      "bytes": 11534,
+      "sha256": "bd2bf76944491c5cc96af9c7695d9dc619f3573854e1d1eb94e355f7532485c7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-04.db",
+      "bytes": 12288,
+      "sha256": "becfd23e5dfe1752275c9e8d0724772b66a0ff62d062e4ba73e17ef95cf19e02"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-04.sql",
+      "bytes": 2173,
+      "sha256": "327f9609bc0fcd6ef347778efc80629c1d9078978ee5ec670c20dfe9d5842390"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-04.xml",
+      "bytes": 21686,
+      "sha256": "ee6426492bd550969379f09f9f5cbf897e740ce9ca3aaff8e953bc5c111e95d3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-05.db",
+      "bytes": 12288,
+      "sha256": "d53c2ef81e1012a013cc9d3587feb8129461b213de7d4934dcedc7b252122d0d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-05.sql",
+      "bytes": 3225,
+      "sha256": "1c06facf291cabc2cad1740a2fea1ec6e3a9d88ff55812c597d69e5dc389d2bc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-05.xml",
+      "bytes": 33914,
+      "sha256": "8660e5e3d273c2249977def022475a32842b29b140f1687642727d3eaaea50e4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-06.db",
+      "bytes": 8192,
+      "sha256": "0353ad6ebb620a8994433512970b9999a85775a33e192b080d93eeb94e394e7b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-06.sql",
+      "bytes": 2314,
+      "sha256": "f9e4d1a55940d36d8aea4ea2363b733b4483511ac1dde88149327ebd5ee827da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-06.xml",
+      "bytes": 18346,
+      "sha256": "4e850f3bc5307c065ed5bbcee3a78243d9daca975a186ec3584d956e5b323093"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-07.db",
+      "bytes": 12288,
+      "sha256": "31d4fe3483357f57e3e473d86478354a33880648d1092f1c85358ba16d2e9be9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-07.sql",
+      "bytes": 4481,
+      "sha256": "a6355556f86289222f1afbcdac47798fd8904bd42f2bbc8f9a4cc3188ead2d28"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-07.xml",
+      "bytes": 35329,
+      "sha256": "f1ddbad665a576090fdf4ac114a333c908061b5b4d70777ca88b642746b05032"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-08.db",
+      "bytes": 12288,
+      "sha256": "e6d7225729aedde754caaf135d6ae0a4b06cdb770fdbef5e99f7ad52bb793a06"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-08.sql",
+      "bytes": 3763,
+      "sha256": "246501e24a807d688c315b5649a297f0b99c442e53995180f326f106b2875141"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-08.xml",
+      "bytes": 34440,
+      "sha256": "88a7ba9a67f7d47ac047a0d293aeb1a4825adcad7ca4382e92c21eead1e7aa58"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-09.db",
+      "bytes": 8192,
+      "sha256": "24330c761766645a6e39ebcaaf6ddabe7b16cf5f44bcb7ed059e8530171611fd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-09.sql",
+      "bytes": 1403,
+      "sha256": "60c4bfba33e3166dff8d5642c357c9377fc4089e1ffeb6efb1d412ee0c684916"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-09.xml",
+      "bytes": 10581,
+      "sha256": "a1b2fa6a75ae7a28f6019524aa20c7b5919d85eadea158c08b9f602cbc2090ce"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-10.db",
+      "bytes": 12288,
+      "sha256": "673ac9d4445899bf7b7692c9655823f30a371ffc78dcfc63e4ed4dbb6a0f99c3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-10.sql",
+      "bytes": 2698,
+      "sha256": "fb6e4a992077263d546ccbe02b89aa69ef432499bb3cdffd632982b76c4d5615"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-10.xml",
+      "bytes": 19833,
+      "sha256": "6cd73890c215d9aac20128c9f7d8e8d6cd4f3884a4c3e384632a95e55b3c053c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-01.db",
+      "bytes": 8192,
+      "sha256": "9809c3ec3504110404fbb9455684d4fd38a89aba214daaec383ba3e6312d84e6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-01.sql",
+      "bytes": 1390,
+      "sha256": "235f83db3b1b38be29905d771729dd0c3b35c968f5a6636e3f20d2aee6508985"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-01.xml",
+      "bytes": 12639,
+      "sha256": "b95a7eb63c21ad7b5fc849cc9fefe97ee78857bc7c472cabab9c5b2edbe39c61"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-02.db",
+      "bytes": 8192,
+      "sha256": "9c1a780dfe24c559bc66d77ca44c43c00cc95b8ef20b280f50b84e913f87df59"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-02.sql",
+      "bytes": 1526,
+      "sha256": "34fe2116ef5991bbd271b972b850514b738ffe4276e8fa64b7a65bb6810a8add"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-02.xml",
+      "bytes": 14112,
+      "sha256": "1ddf8e19f77971e915e555bb5a3b845b4e7f3273ab153448e8082bd76709ba71"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-03.db",
+      "bytes": 8192,
+      "sha256": "e948bc049b06a3085b15d8f299c027d58d7cbf4818f37e71e5e37a0388081c35"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-03.sql",
+      "bytes": 1823,
+      "sha256": "0d20776583eb67b7dc644aa3be68e32e2dfafe29829e6915b806724c97b92c2b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-03.xml",
+      "bytes": 17749,
+      "sha256": "619e6b1305193e707ebe332481859ca1fe7d790758c533d7f3023f3dfe839a5e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-04.db",
+      "bytes": 8192,
+      "sha256": "240e4e848be8815a9865fd670046ae1a2cfa7f38d4ec6a2c193c079c8f0773bb"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-04.sql",
+      "bytes": 1393,
+      "sha256": "7da5b18756d2973788df7695b16fe649fcae1edfa685c4c702fc3f4fef2fa9a5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-04.xml",
+      "bytes": 12642,
+      "sha256": "2d4a3050b6a8c2809afdcba1fdb63448a42f8d0dad6f6901afc0f5dc750c834b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-05.db",
+      "bytes": 8192,
+      "sha256": "c1c2ffd3285c5497537b1d3c5e0c27b73d4b133c696f2785805309c49beb46fb"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-05.sql",
+      "bytes": 1526,
+      "sha256": "2535a7b50ec47f4af48c62c9e6cf9faa8e29c7e35735c0617662523a77dd4ccb"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-05.xml",
+      "bytes": 14112,
+      "sha256": "0244450497956c1f555ac607d1670a0eed06ea9a7497b3397f33bc14e731ffed"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-06.db",
+      "bytes": 8192,
+      "sha256": "e2ab785f5f2b2fe191f097992c57297db1985285a0ff2250b6bc9a2547ca64c9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-06.sql",
+      "bytes": 1708,
+      "sha256": "ef5783576c91247a042cf2e601bce32d4952974195ea1218c270e399cd53f127"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-06.xml",
+      "bytes": 14168,
+      "sha256": "f7a634185e15fa841b526738ba81103d50739e82b1aee5f37518878ea27afafc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-07.db",
+      "bytes": 12288,
+      "sha256": "ada0177d638e27d08ba716a7e0d263803907ade597d6a4fccfa26dcf41931bd2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-07.sql",
+      "bytes": 2329,
+      "sha256": "798689dd652764987353608a1a7b80708f5b1ee2ae7e8a29dcb18f7690c9c9bb"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-07.xml",
+      "bytes": 23139,
+      "sha256": "d91a17533fa5c34c0641c943c05d274872f22af13a87b88069d91511759af695"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-08.db",
+      "bytes": 12288,
+      "sha256": "ce6e239b8a9bcf199f28036f94cf9aa1df20cab1499747eb23203025e456a7ca"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-08.sql",
+      "bytes": 2881,
+      "sha256": "a6fdff305be54dd894d7d4ceed9f95fe01fcbd5cd44c68f6bc374089609d828c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0D/0D-08.xml",
+      "bytes": 23159,
+      "sha256": "1277b965ec11732f6dc18360206fbd635902bf62a5fbcd7df8d26e44e2720139"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0E/0E-01.db",
+      "bytes": 77824,
+      "sha256": "0943aabf79238e17bd067aad745c46722f58a4a00b47cf43db7c84ecfb9af547"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0E/0E-01.sql",
+      "bytes": 53651,
+      "sha256": "17e2ce29da69d6fd589d8c0acfdee7cac90cf00f7a52b8b3f6ae620233c34c12"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0E/0E-01.xml",
+      "bytes": 66668,
+      "sha256": "cdcaccf0e2550e24a25455bcb3795f45051a8c80e1ed72377232d69a3ed43a5d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0E/0E-02.db",
+      "bytes": 90112,
+      "sha256": "d0f2ec74ac5a7ec6e30fb4aed969e241a3e1ad5ca617f0e810bedfc81ae07b64"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0E/0E-02.sql",
+      "bytes": 78788,
+      "sha256": "33efe058484d621e4f72db3903a24c38293f31a5815e8d2f53e5f15243c6ac4c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/0E/0E-02.xml",
+      "bytes": 163928,
+      "sha256": "7a5f893732cd7c55ec8fe8362a362659cd07baa8d00f813b2016c9579256dfde"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-01.db_recovery",
+      "bytes": 12,
+      "sha256": "e2e936453e631c6233344e114764b4428ec8a60615a5e5954d2aaaa5396c8e76"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-01.log",
+      "bytes": 823,
+      "sha256": "8df974babfd9f858e70b989cbbca975ae4d0f1ce380243a072a47f41bead8f52"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-01.sql",
+      "bytes": 1247,
+      "sha256": "9cc5f7e7291c2892e3b411adefc28a046c7cd15f2116baf64e135c38e47c1227"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-01.xml",
+      "bytes": 16293,
+      "sha256": "01a01f947f43d315d8fb30689dcd186c17ca8d86b7dd22275aa83fa29efa244a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-01_antifor.db",
+      "bytes": 20480,
+      "sha256": "1e584992d0154d87ebb221b1fa1058256c5a83e397ad1eaa71e1934222fdbe14"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-02.db_recovery",
+      "bytes": 12,
+      "sha256": "e2e936453e631c6233344e114764b4428ec8a60615a5e5954d2aaaa5396c8e76"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-02.log",
+      "bytes": 823,
+      "sha256": "33d143b932abdb2f702e2e872f7ec75483bd162a5c58fbfa4f517993306eae1a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-02.sql",
+      "bytes": 1253,
+      "sha256": "7183eaf81ed8239b836dc8a2bde89ab993c484c1b720a4c371cc2018b04b2211"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-02.xml",
+      "bytes": 16299,
+      "sha256": "7a9bb0955952fda0dcb9e778c29d57044163776167054968cbb0264e3e73823e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-02_antifor.db",
+      "bytes": 20480,
+      "sha256": "c3089e587abf03a25496fc681ad8607b831b2c07c3ec5e2c603f6142fed338f5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-03.db_recovery",
+      "bytes": 12,
+      "sha256": "e92f80192b682a02cb9731bf038368b8bddc12ca744980b09049425452927260"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-03.log",
+      "bytes": 823,
+      "sha256": "660a0518733cc69ddb3e3dee822d4ca5aed6754def8751f64788df4a837e94aa"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-03.sql",
+      "bytes": 1217,
+      "sha256": "4efcd77a99493f0ef262594541f2c63d2ff25d8340172827fc355e97dc928485"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-03.xml",
+      "bytes": 16891,
+      "sha256": "c6938557a8a0eef3094aa3d3d8940128c9bda6aab6a44c20e208102de3afcf79"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-03_antifor.db",
+      "bytes": 20480,
+      "sha256": "204ac4d65d8b1e596b9a9c5b832d10aaa585ed67ce0ac517b00b19263e074fae"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-04.db_recovery",
+      "bytes": 6,
+      "sha256": "1e6edee9f9f74c732caa9523434e4cf2811a752a4787b192d72c8a78234d7fa8"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-04.log",
+      "bytes": 610,
+      "sha256": "bd10aded49ef53eda26c252a005c811366cdfe958e4c0e45bb8378c11b9cb589"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-04.sql",
+      "bytes": 672,
+      "sha256": "8027dd8c1bb2ec0a5285b0d04bda2092bc5e7201cc25d602906a3bb14a04359d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-04.xml",
+      "bytes": 8845,
+      "sha256": "ecc4c4dbbacfe0b11e58a8e8f42234c488371dc7c105ef99607a5565e47f111f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-04_antifor.db",
+      "bytes": 12288,
+      "sha256": "fb41a25dfd49530acbd206c1b9a77112c515b0c76b83ace51d30fc20f3bb3af0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-05.db_recovery",
+      "bytes": 6,
+      "sha256": "b45750704db96990fa521b6f062efda95f046f24b262adf2bbf96bf763826b78"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-05.log",
+      "bytes": 772,
+      "sha256": "1a372a2ba25ea2ff96c5b5643dd249102a785cb05b737891c064d90572c911c3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-05.sql",
+      "bytes": 59707,
+      "sha256": "4076dc04bfffc7301056c80aecae2c774ba23ece1680259364b0a6f7fe42c672"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-05.xml",
+      "bytes": 122699,
+      "sha256": "a9c2b8876de8855b6820f39743415d0ef9872ecdf3d3d498b07fd822b94ed997"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/11/11-05_antifor.db",
+      "bytes": 86016,
+      "sha256": "d938b15e45dd6ec1c320f6b4324db248671594fd65104d15ec677f7f7d0e0cca"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-01.db_recovery",
+      "bytes": 36,
+      "sha256": "2aefb0de3679100c2983c592bc1b5cfd6595c61895e27a07c9c47fab16ebec38"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-01.log",
+      "bytes": 1035,
+      "sha256": "f6610828f7526ead96a21135166d4c23acec67cb0a4eca771992db1e485a4aae"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-01.sql",
+      "bytes": 27497,
+      "sha256": "f0cd7fc4025ad8d1691f565762121c34609bf611fefb80c7aa002b6d2e9b7cf2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-01.xml",
+      "bytes": 407374,
+      "sha256": "c4b3160ffe07ecd4d81691cf4c06af4f20de1e358030d24254c76d57c1c99177"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-01_antifor.db",
+      "bytes": 45056,
+      "sha256": "fdf62def45fbcfc47b9d5d0cbf0e818fbc3edc9159e9550033c7b51cb566c105"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-02.db_recovery",
+      "bytes": 18,
+      "sha256": "53c49bc91421978ca6d46f9e1512d97a27732e5b454e72ef9f718158b9662914"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-02.log",
+      "bytes": 871,
+      "sha256": "14706938b8a93e9c779f56e2765506d739e017d3d468f3693b3669ed479ea55f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-02.sql",
+      "bytes": 27497,
+      "sha256": "f0cd7fc4025ad8d1691f565762121c34609bf611fefb80c7aa002b6d2e9b7cf2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-02.xml",
+      "bytes": 407374,
+      "sha256": "8b07918029ccd7fb8bdcb29ae8730f1d54d25729770719a99ffcfcede6c52e1a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-02_antifor.db",
+      "bytes": 45056,
+      "sha256": "74f4bf8019d1cc0eec36396d1fdf8fef1afa199b523db8db933b2270ddaca7a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-03.db_recovery",
+      "bytes": 36,
+      "sha256": "2aefb0de3679100c2983c592bc1b5cfd6595c61895e27a07c9c47fab16ebec38"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-03.log",
+      "bytes": 1114,
+      "sha256": "d1e993473c7ecd3e22677ab784eba65a452b83e959b39fd427e87a567fc549f8"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-03.sql",
+      "bytes": 27497,
+      "sha256": "f0cd7fc4025ad8d1691f565762121c34609bf611fefb80c7aa002b6d2e9b7cf2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-03.xml",
+      "bytes": 407374,
+      "sha256": "4f34c1d314d04f08cfc3fea74cf3c39679d691ad2f55934fea3e9e1f0f39873d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-03_antifor.db",
+      "bytes": 45056,
+      "sha256": "0752698432008be37c995801a05efcf2a3c508f74e98c52b914225da3fc120e7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-04.db_recovery",
+      "bytes": 18,
+      "sha256": "319f2fdebae96b350f549ba90a8a852a00bb47991f32b7e00314f31b4d50ea19"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-04.log",
+      "bytes": 867,
+      "sha256": "6dd13d5a29d081d7139418ab1b2abdd6bbd7df7b9245b8ee47372954a17d3b78"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-04.sql",
+      "bytes": 27497,
+      "sha256": "f0cd7fc4025ad8d1691f565762121c34609bf611fefb80c7aa002b6d2e9b7cf2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-04.xml",
+      "bytes": 407374,
+      "sha256": "d19200e87a143ad995ce805dfe6fc996c3f0db2088950a8d7d973470bcf5069b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-04_antifor.db",
+      "bytes": 45056,
+      "sha256": "1242c9e412362f1e80f7430694b53fb99dc888655f58da8d2ea092e0d589b5dd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-05.db_recovery",
+      "bytes": 36,
+      "sha256": "2aefb0de3679100c2983c592bc1b5cfd6595c61895e27a07c9c47fab16ebec38"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-05.log",
+      "bytes": 1051,
+      "sha256": "0837fca8dbdb9ee6072d9dbc423878893d361114cbf048e8454fd0da71d70bea"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-05.sql",
+      "bytes": 27497,
+      "sha256": "f0cd7fc4025ad8d1691f565762121c34609bf611fefb80c7aa002b6d2e9b7cf2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-05.xml",
+      "bytes": 407374,
+      "sha256": "1fc3c2b3efe8e3a6d59df87398a26ff53324bff977d80c48fbc1db0bf0f8332b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-05_antifor.db",
+      "bytes": 45056,
+      "sha256": "49896982b0446e8e4656fad72d3b9db35dd68a2ec0ee416db4f46e0483b65cc2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-06.db_recovery",
+      "bytes": 18,
+      "sha256": "bd58f88ce73acb8af1e8b29bd0f59a84f9f2156f2faa11e213c7bda289af532a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-06.log",
+      "bytes": 886,
+      "sha256": "98ec48b6b56eb09a84ab7fe2389e1ebefab4c5e49eae5b8014c34a10116d623b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-06.sql",
+      "bytes": 27497,
+      "sha256": "f0cd7fc4025ad8d1691f565762121c34609bf611fefb80c7aa002b6d2e9b7cf2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-06.xml",
+      "bytes": 407374,
+      "sha256": "6a91952c054f42969448f0fe792d8390688d715e6528612ca369271b49ff0e39"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/12/12-06_antifor.db",
+      "bytes": 45056,
+      "sha256": "e3cff38f85eaebf201c9e791d64c886ec6a17576d94c4a56d9c5b1a5d13a9fa2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-01.db_recovery",
+      "bytes": 102,
+      "sha256": "94729c350d7cf8fb49125ae3bf234529127511ae8eb18c284c6b275d921c2904"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-01.log",
+      "bytes": 1152,
+      "sha256": "87b637a0e5fd7f57c922432b7c6a4bb1fcaebeb42a2e8b41f443caca3426f0e9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-01.sql",
+      "bytes": 111405,
+      "sha256": "d7dfda9c836c46cae12e47b34877cb26fc8244fecee0d4b46f7dc05037ba57da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-01.xml",
+      "bytes": 119555,
+      "sha256": "53f50da422a8fe1c1b03f6b083f3c30db0cf82e80d728f39289741f1ec25255a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-01_antifor.db",
+      "bytes": 131072,
+      "sha256": "f6752b389a39438b18f5bb828cfd9feac027e8012dea4c67056829564839c689"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-02.db_recovery",
+      "bytes": 27,
+      "sha256": "cbfe583dbcf07eeb044cec5a942b50e6b0ce9a92741bd6608627d0d34321faef"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-02.log",
+      "bytes": 829,
+      "sha256": "04b8503f0850d3dd222105b8c16ab680b64a55b978aaf0fe514202713adadafd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-02.sql",
+      "bytes": 111405,
+      "sha256": "d7dfda9c836c46cae12e47b34877cb26fc8244fecee0d4b46f7dc05037ba57da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-02.xml",
+      "bytes": 119555,
+      "sha256": "0fb84e2c4f46d0f7f23c9c14746e85df4f18fc572c2f385054916664a08b31b6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-02_antifor.db",
+      "bytes": 131072,
+      "sha256": "775bb5544c9407739caf9cc2bbc2f6ac116491f663abcd1e4bce9c922cefe3da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-03.db_recovery",
+      "bytes": 71,
+      "sha256": "82fbd7fd02a7ad7ce158663fdd98e03be8e97978b8281e545111bb4d499715c2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-03.log",
+      "bytes": 1100,
+      "sha256": "0d9c2b822b449ff377724396a4802ce2eab42414a299ed32c47aed5a9ff6ddd1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-03.sql",
+      "bytes": 111405,
+      "sha256": "d7dfda9c836c46cae12e47b34877cb26fc8244fecee0d4b46f7dc05037ba57da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-03.xml",
+      "bytes": 119555,
+      "sha256": "4a4b145c8365b6e69f95e945e7fbe9af253eb900090fc82ca0a6a4b436e6826b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-03_antifor.db",
+      "bytes": 131072,
+      "sha256": "f52b16dc5b307e42f6e60d2908d5807c7679566534b42d04a1c1bc5bad4ab2c6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-04.db_recovery",
+      "bytes": 9,
+      "sha256": "3e9cd73f43ab51e49aa6ade80dbbf4063a2ed3fe46edfd8d411acfe38182a8bf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-04.log",
+      "bytes": 782,
+      "sha256": "1c4a8b510ae975ee8b746e9ac963ed31ea042aa68d1bb5632ec2f671863b8168"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-04.sql",
+      "bytes": 111405,
+      "sha256": "d7dfda9c836c46cae12e47b34877cb26fc8244fecee0d4b46f7dc05037ba57da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-04.xml",
+      "bytes": 119555,
+      "sha256": "cfb9e8ea8da536ec2542afd802d813f1cd8b06759c24baf91935918b57a8cf6d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-04_antifor.db",
+      "bytes": 131072,
+      "sha256": "fd91a45d13a4012f33f317fbb06e84575d7d51097bb882b728813c6e3d63e985"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-05.db_recovery",
+      "bytes": 71,
+      "sha256": "f39629393526169c699e5366af9af205fa911964cb86afc8b946b9895b5b7822"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-05.log",
+      "bytes": 1126,
+      "sha256": "a5c8bb76d1b56a0b3f74ee7f767c38f3ef0d04fd0440356eea613c8c663739e9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-05.sql",
+      "bytes": 111405,
+      "sha256": "d7dfda9c836c46cae12e47b34877cb26fc8244fecee0d4b46f7dc05037ba57da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-05.xml",
+      "bytes": 119555,
+      "sha256": "7f148a237196ec875faf1281eba69f9bb4fa71f11dedb1ac2eef081dbec28117"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-05_antifor.db",
+      "bytes": 131072,
+      "sha256": "53d19291b1056ddd4001649e6492d60a110958f0e334ee5f67c873e3f5e8692d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-06.db_recovery",
+      "bytes": 47,
+      "sha256": "2d5e0b234767dea8d9dfa4459feb55e5a4fcd8383e0f1e9bae15e8866577b32e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-06.log",
+      "bytes": 1007,
+      "sha256": "07d63bcd0422a6396ab9bfb37b2bbba8b414cdfe3f1ee7a3bf03f2df3e0bf139"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-06.sql",
+      "bytes": 111405,
+      "sha256": "d7dfda9c836c46cae12e47b34877cb26fc8244fecee0d4b46f7dc05037ba57da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-06.xml",
+      "bytes": 119555,
+      "sha256": "8dd9a722f5e933e5e75d21e389e87384a0e3e5f9cabdad7bc205f5aa50e5861a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-06_antifor.db",
+      "bytes": 131072,
+      "sha256": "8ba744d2da3d51bae0d2de1994f73faf5a5d765530df6e17f9534d56a92a6056"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-07.db_recovery",
+      "bytes": 49,
+      "sha256": "14fd58f2033286eafa5638a915d30df5cfaf881fdcbdc7c26953c6bc72698bbf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-07.log",
+      "bytes": 990,
+      "sha256": "8480a764357df6495a531c550397284d5a2d612e32d489f532e248a855e747e4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-07.sql",
+      "bytes": 111405,
+      "sha256": "d7dfda9c836c46cae12e47b34877cb26fc8244fecee0d4b46f7dc05037ba57da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-07.xml",
+      "bytes": 119555,
+      "sha256": "1284fd4e5a823ca44902bebff23e76bd40871391a050afb36fc96f76bcbd4f91"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-07_antifor.db",
+      "bytes": 131072,
+      "sha256": "b1636377e135fd7d32f22efd65bbd5a6a61a9c9c74f12e3385bb61fd006b4f08"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-08.db_recovery",
+      "bytes": 27,
+      "sha256": "9fc613f4691ed854221f567c11bc0a595ad311119ae87a0c4c1a97ab7783a7b9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-08.log",
+      "bytes": 895,
+      "sha256": "ace38bc3e58b6778e9715f878fe954c97cc673705a9051bf36a2d6b111748735"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-08.sql",
+      "bytes": 111405,
+      "sha256": "d7dfda9c836c46cae12e47b34877cb26fc8244fecee0d4b46f7dc05037ba57da"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-08.xml",
+      "bytes": 119555,
+      "sha256": "e007df52d4795f5c5a6f6c5d07078a1746cf3c9494ff7c73a15ac9903503e2e0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/13/13-08_antifor.db",
+      "bytes": 131072,
+      "sha256": "42cf09c7a246abcf5859686f187e3e4c64be603be7af32e6a8078f04c7e9ef19"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-01.db_recovery",
+      "bytes": 280,
+      "sha256": "3cd13913fe8c2e5a7294fc86eab3ca9e8bccb8d1f27467bce46b69cd18e313f1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-01.log",
+      "bytes": 3846,
+      "sha256": "bd595a0381f6bc4190aa7e157575a2cc72a3fcdbbf93940f2f44f2c55f190b8e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-01.sql",
+      "bytes": 1229,
+      "sha256": "4e487882854b05e26527e63961f174f1bfc8746a098253db6a0a9589d9f414a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-01.xml",
+      "bytes": 16282,
+      "sha256": "f50680d0b274ed8fa3a559cddec8ca5b34216b819b6a49551fba45d7037e1383"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-01_antifor.db",
+      "bytes": 20480,
+      "sha256": "60c860ce36d2ae3e3399850187d7165a684eb15fa392b447f51d5d5cb41cc3c3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-02.db_recovery",
+      "bytes": 28,
+      "sha256": "0ad26ce3479b20ec54f90d613734f802093ebdc82e41317c8e677b04d2d0eda9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-02.log",
+      "bytes": 937,
+      "sha256": "9097843101e80e1890110a6eda3bc25384540862125bc9f444f221de90826770"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-02.sql",
+      "bytes": 1229,
+      "sha256": "4e487882854b05e26527e63961f174f1bfc8746a098253db6a0a9589d9f414a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-02.xml",
+      "bytes": 16282,
+      "sha256": "36cf6b9062069ead722e5dd393001082a6df2728d55eafb8fd2f4de84dee6c20"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-02_antifor.db",
+      "bytes": 20480,
+      "sha256": "ff63463f7ef0143b374505250f1b765a6a3c04560db3d51c68a4ec5c3277821c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-03.db_recovery",
+      "bytes": 280,
+      "sha256": "3cd13913fe8c2e5a7294fc86eab3ca9e8bccb8d1f27467bce46b69cd18e313f1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-03.log",
+      "bytes": 3967,
+      "sha256": "eb39646c624b7e755f4206c1834d0a465b0b571bfe11ec96db98eabe3b6f11e9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-03.sql",
+      "bytes": 1229,
+      "sha256": "4e487882854b05e26527e63961f174f1bfc8746a098253db6a0a9589d9f414a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-03.xml",
+      "bytes": 16282,
+      "sha256": "a4cd0337b25c398aae63b8fb35efa5c6ae5a550c2c69b83231555c9840a34ad1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-03_antifor.db",
+      "bytes": 20480,
+      "sha256": "f13ee95d2d672a28bd280361070c6297af320921e81ec56c290dd9803cece649"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-04.db_recovery",
+      "bytes": 28,
+      "sha256": "4fcd6bf3fe002f6092f8586a16215dd5c20b66a2c9130881cc5b8fe891992c88"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-04.log",
+      "bytes": 950,
+      "sha256": "683f4baf9291ed0a45c6de38c1002f09d480351337732c1df74ef8631251bcde"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-04.sql",
+      "bytes": 1229,
+      "sha256": "4e487882854b05e26527e63961f174f1bfc8746a098253db6a0a9589d9f414a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-04.xml",
+      "bytes": 16282,
+      "sha256": "213189e0463657b3a371fc199ce3e6f9e589a2ef59da534fa4ade9bd71d810a7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-04_antifor.db",
+      "bytes": 20480,
+      "sha256": "300d7b1c6609d6b0dbdc83b99c422070b9ef651481080d9b98a28cb1e87dc82a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-05.db_recovery",
+      "bytes": 210,
+      "sha256": "1bab8b166e5ac24ebe181a98486573244fe1eac874eeedeafb8482a268eceee0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-05.log",
+      "bytes": 3109,
+      "sha256": "aa86ebd6a1f6f3fa340f6479c4f86d1ea2667d428f277ecd85b796932d13a1bd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-05.sql",
+      "bytes": 1229,
+      "sha256": "4e487882854b05e26527e63961f174f1bfc8746a098253db6a0a9589d9f414a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-05.xml",
+      "bytes": 16282,
+      "sha256": "b22ab009592f1ba2b0d08afe4aa27257d23b5a36cf13ef313e08cfe753521aea"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-05_antifor.db",
+      "bytes": 20480,
+      "sha256": "a0caeea774fa5d5f2ac566fe1425102b408a99ca1bce837101dc25d9f128968c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-06.db_recovery",
+      "bytes": 21,
+      "sha256": "be4a5acd72b8ab2a6d680f7237a29e3566b91c242ab0e7d9ac0be08c2b20fee6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-06.log",
+      "bytes": 864,
+      "sha256": "de1026310946acc09bb762b8a46879a7e7e42439fb4e512723fbaaae234f7c46"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-06.sql",
+      "bytes": 1229,
+      "sha256": "4e487882854b05e26527e63961f174f1bfc8746a098253db6a0a9589d9f414a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-06.xml",
+      "bytes": 16282,
+      "sha256": "388bd93f5d1cafd8b12290de183551451770342d6212d4774a7fcaf4ce38994e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-06_antifor.db",
+      "bytes": 20480,
+      "sha256": "de67a4606052a4d6c14f40ca1b8845b1a7c1fbc3a9ce0c8b76e22ead3123f48a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-07.db_recovery",
+      "bytes": 280,
+      "sha256": "3cd13913fe8c2e5a7294fc86eab3ca9e8bccb8d1f27467bce46b69cd18e313f1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-07.log",
+      "bytes": 4013,
+      "sha256": "6660e186fb5b09567b5f8ba0713b32668b60a6cef80f544bf32106ca705537b8"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-07.sql",
+      "bytes": 1229,
+      "sha256": "4e487882854b05e26527e63961f174f1bfc8746a098253db6a0a9589d9f414a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-07.xml",
+      "bytes": 16282,
+      "sha256": "0f205a70d4db2bd1307c582629af9eb7c50e6a2747e0e01e0af90d3a85301d5e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-07_antifor.db",
+      "bytes": 20480,
+      "sha256": "bee13d5585df1ffcddb0f4a89704085c8da6f6310e9fbc79bf187e12aa6eb38f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-08.db_recovery",
+      "bytes": 28,
+      "sha256": "060e42709eb39538e65e5900599f27e30c4463b4f604d19546037ba02c609158"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-08.log",
+      "bytes": 960,
+      "sha256": "376b14f8872f784be05acbeb33145fa7874f6c90a62827d22445f0986f4b612e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-08.sql",
+      "bytes": 1229,
+      "sha256": "4e487882854b05e26527e63961f174f1bfc8746a098253db6a0a9589d9f414a0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-08.xml",
+      "bytes": 16282,
+      "sha256": "04c94e4162c5f13fafbe686a6d2911edad9be61884647672513aeb3612608665"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/14/14-08_antifor.db",
+      "bytes": 20480,
+      "sha256": "1ba6c1cd1bddf5615e239372a77f96baea7b3dfaa41b3dac90ffaaf8066e6696"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-01.db_recovery",
+      "bytes": 30,
+      "sha256": "de2b589a1157f8e4cd26cf5408a757773a5fbd9ac0249a8e3978d5b1d6e37a93"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-01.log",
+      "bytes": 730,
+      "sha256": "e949e223766ade2dd8fbfb42a6f18e732ea4a76d7a849b7a45d2c0db21aae7d7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-01.sql",
+      "bytes": 1077,
+      "sha256": "7c1d3b6ed4fe7edeb55bd67ca1e8e56911fcafa587555bf36b1a2f5551e622b3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-01.xml",
+      "bytes": 14924,
+      "sha256": "0ed99c806f86188748f91418cefd776f8b6fad6a7aebbc47d22c3ebf1c62bc07"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-01_antifor.db",
+      "bytes": 12288,
+      "sha256": "0460879c45ce4acdd8cd36e68243e096d9b1770dc4ff833561c97385fc2acf7a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-02.db_recovery",
+      "bytes": 120,
+      "sha256": "384d96f2e4f7d969577351109d382833c5279dd33f8fed77c6296c0782ce9721"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-02.log",
+      "bytes": 1723,
+      "sha256": "1846e55d793fd55d1ffb16b7dcc039eb22780410193bff657307bdf371dce170"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-02.sql",
+      "bytes": 1077,
+      "sha256": "7c1d3b6ed4fe7edeb55bd67ca1e8e56911fcafa587555bf36b1a2f5551e622b3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-02.xml",
+      "bytes": 14924,
+      "sha256": "b9dcecc9003416e43c54492638a1030e1ed842cb8f11bfde7121f952afe91111"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-02_antifor.db",
+      "bytes": 12288,
+      "sha256": "201fe8f1b932dfb54580926b4f52e6b2058d4b3f9134db13fa24254ff00e75ff"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-03.db_recovery",
+      "bytes": 30,
+      "sha256": "90c92ffda64f9de83404b178728ebf546cbc14cdf19f3622c23f2ea0214e6b2a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-03.log",
+      "bytes": 733,
+      "sha256": "a62b84a25908c91babc71c1ff73ad8c0e5fe618d07b985e25915a46a6007743c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-03.sql",
+      "bytes": 1077,
+      "sha256": "7c1d3b6ed4fe7edeb55bd67ca1e8e56911fcafa587555bf36b1a2f5551e622b3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-03.xml",
+      "bytes": 14924,
+      "sha256": "5a4a3c3be4de8a691fad8ae5889c095e8017bd8bb5d5bebb1f2dae7a6d962501"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-03_antifor.db",
+      "bytes": 12288,
+      "sha256": "0c83d21c5f67d30c56f45f869e3a6aa45783668acd0cb831cd22fdd30e5ad32e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-04.db_recovery",
+      "bytes": 120,
+      "sha256": "384d96f2e4f7d969577351109d382833c5279dd33f8fed77c6296c0782ce9721"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-04.log",
+      "bytes": 1731,
+      "sha256": "dc48c17fdc12d728e029ca0c457a3b59ba5956e73b26b1d42110ea32df4cf19f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-04.sql",
+      "bytes": 1077,
+      "sha256": "7c1d3b6ed4fe7edeb55bd67ca1e8e56911fcafa587555bf36b1a2f5551e622b3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-04.xml",
+      "bytes": 14924,
+      "sha256": "8c1cbc4c96e602437e215595ae22abebe55fb2871283e54ba04e87f839001dd7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-04_antifor.db",
+      "bytes": 12288,
+      "sha256": "b04272aea39f805b8498d0b7e9dc21ec0e94ac0e18de982a7be01c0ccfbf9b6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-05.db_recovery",
+      "bytes": 30,
+      "sha256": "aabd4b62af333c5c92e8eae7ffc74f68557c81dc749c0d89719c6a9506193d80"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-05.log",
+      "bytes": 672,
+      "sha256": "7531453f8cce1497c62a783fe2857174cbc63c606071b55a294fe85ff31aad91"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-05.sql",
+      "bytes": 1077,
+      "sha256": "7c1d3b6ed4fe7edeb55bd67ca1e8e56911fcafa587555bf36b1a2f5551e622b3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-05.xml",
+      "bytes": 14924,
+      "sha256": "0589421c37fa45944a11fff91683b25588f840fa0bc8c6bffae9171e3f4ef7ca"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-05_antifor.db",
+      "bytes": 12288,
+      "sha256": "af2e2bfd630729743f114d845930efbe6e9bb7ba9aeabb27e8370380649245ec"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-06.db_recovery",
+      "bytes": 240,
+      "sha256": "0233a91de88af2bb0dc96e005793aa1b0a6d0b370505b2205000db301ffdad71"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-06.log",
+      "bytes": 2759,
+      "sha256": "570247ff19312ba0c3e8f1ee6f04b67bc0a9261600bf8485e5efc6fad12a2a39"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-06.sql",
+      "bytes": 1077,
+      "sha256": "7c1d3b6ed4fe7edeb55bd67ca1e8e56911fcafa587555bf36b1a2f5551e622b3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-06.xml",
+      "bytes": 14924,
+      "sha256": "cdd999f65e8ee6b2c3ffb7684e28048d24af90ade330efe01ca1eee66a11c695"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-06_antifor.db",
+      "bytes": 12288,
+      "sha256": "226f4048a612727c9f20a91fda95f30c8ad7ae5f69a4ed0a0ca29464f20df353"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-07.db_recovery",
+      "bytes": 30,
+      "sha256": "aabd4b62af333c5c92e8eae7ffc74f68557c81dc749c0d89719c6a9506193d80"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-07.log",
+      "bytes": 673,
+      "sha256": "ed763671e31106299987ae01d1f82f158f9de743b527f222f913900ca29b00bb"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-07.sql",
+      "bytes": 1077,
+      "sha256": "7c1d3b6ed4fe7edeb55bd67ca1e8e56911fcafa587555bf36b1a2f5551e622b3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-07.xml",
+      "bytes": 14924,
+      "sha256": "01df31da9f62232700c796d62334eafd2c8deaf17d4494ce33e114a3678c5604"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-07_antifor.db",
+      "bytes": 12288,
+      "sha256": "1d8e4801d9d277ab900c29dc8cc64e3b3da4cb4ccb1cc749c0086c9552edf45d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-08.db_recovery",
+      "bytes": 240,
+      "sha256": "0233a91de88af2bb0dc96e005793aa1b0a6d0b370505b2205000db301ffdad71"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-08.log",
+      "bytes": 2788,
+      "sha256": "48f8f6106a624a0777e41e5a8e1aa976f22668b98c83f54f07d2f473cb098818"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-08.sql",
+      "bytes": 1077,
+      "sha256": "7c1d3b6ed4fe7edeb55bd67ca1e8e56911fcafa587555bf36b1a2f5551e622b3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-08.xml",
+      "bytes": 14924,
+      "sha256": "427cbf422211cea6db4546ac335637fd82102604d14d86dabcb527b4735a9ece"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-08_antifor.db",
+      "bytes": 12288,
+      "sha256": "a90f712ca877127bbc571f71adb735b78a43a76bcea3231254f92246416d3465"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-09.db_recovery",
+      "bytes": 6,
+      "sha256": "505a7a530b15e2c7090129bfacd4a70bcb0d0de0a95f9151f481a0aaf9a94ede"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-09.log",
+      "bytes": 495,
+      "sha256": "cee61590b9c61675320dabc75297265b954b42e23d3584a66c639a8a830718af"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-09.sql",
+      "bytes": 1907,
+      "sha256": "7f6d56e61fe26cce603703c5cb38013e10754966f1d9963ab76d2e78c8a92b85"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-09.xml",
+      "bytes": 26963,
+      "sha256": "629d7607797dab14aeaf73dfdd1456b732900ca29fb9ae031dbf60bd3c9a8334"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-09_antifor.db",
+      "bytes": 12288,
+      "sha256": "19d5727e1447f508dc4649d830bcbaea3a5128bee4994ce43da7ea809dc1aec4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-10.db_recovery",
+      "bytes": 36,
+      "sha256": "ece44cec2eda342a20bf0ddf46e055548c4c7759d1fb72225d1bfee3124ec424"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-10.log",
+      "bytes": 1137,
+      "sha256": "7391335367cf7e40358ceeb38679d842dfb116a74d9a43cae768bf24a12c9aba"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-10.sql",
+      "bytes": 1907,
+      "sha256": "7f6d56e61fe26cce603703c5cb38013e10754966f1d9963ab76d2e78c8a92b85"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-10.xml",
+      "bytes": 26963,
+      "sha256": "23f07ae94c0bf1d0878ed20d59e2c397861e28b9870137a0de7dad1e6ae19e81"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-10_antifor.db",
+      "bytes": 12288,
+      "sha256": "25eea98a48454a847f0a954364abd6acb652c64a9c3e3207898a5d553fddc474"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-11.db_recovery",
+      "bytes": 60,
+      "sha256": "5e3e3cb09257a6e310e4425c471720bdb36236a72d79ae7e6958ebd9bfa4a124"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-11.log",
+      "bytes": 1694,
+      "sha256": "c3430f8f40c10e27798c7379a877379170b7631ec138c6b2cb6a9f4967f4f1f1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-11.sql",
+      "bytes": 1907,
+      "sha256": "7f6d56e61fe26cce603703c5cb38013e10754966f1d9963ab76d2e78c8a92b85"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-11.xml",
+      "bytes": 26963,
+      "sha256": "2ab92305f3364ceaf0681e2e7a5cd8770a03230a2ebec58f3f1cef2067fe68cb"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-11_antifor.db",
+      "bytes": 12288,
+      "sha256": "595e429cdfa1221696af5b4c5dd3ce9231ad54754c98d2328f656e8ba5ed1f0f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-12.db_recovery",
+      "bytes": 720,
+      "sha256": "370c82e91c1bc0a970c8024b85f07759a3550a648f13593baa112ffb3a5dd6aa"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-12.log",
+      "bytes": 15397,
+      "sha256": "3d15ee8c36848c5baeb11ae54bfc9b6929859a086ef608a85061c75d68629a52"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-12.sql",
+      "bytes": 1907,
+      "sha256": "7f6d56e61fe26cce603703c5cb38013e10754966f1d9963ab76d2e78c8a92b85"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-12.xml",
+      "bytes": 26963,
+      "sha256": "aeb0891cf63f449dadf90e3c96f851f71614740cda1b3ea97635922bf277eee7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-12_antifor.db",
+      "bytes": 12288,
+      "sha256": "8e4305cfcec7c7c62ff11e471881e97c5958073eb31f77b34f4d88a00969e235"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-13.db_recovery",
+      "bytes": 60,
+      "sha256": "5ee15c040ed756ab135b6956c871abf6c00cff157e660696089db95ded107ffe"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-13.log",
+      "bytes": 1069,
+      "sha256": "c9c0f9d8ca7f8df8ec54a194a3f50a9343e4c5c976ce1d49dda9989429ecda47"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-13.sql",
+      "bytes": 584,
+      "sha256": "714181d88d75b7a708674105b1ce82d4946c79a0b521624b05e8a6f998b618c2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-13.xml",
+      "bytes": 7538,
+      "sha256": "b30018422c9060bcc97691ec3c720ddbbdc8da5b41b5dfd2b6be5fac7bb5f7ea"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/15/15-13_antifor.db",
+      "bytes": 12288,
+      "sha256": "607f100a91b8393903269c213ba71676e37356444e9661e6231b6761bc372d8a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-01.db_recovery",
+      "bytes": 60,
+      "sha256": "3f05848f176475fd3088126d89cb898dc4745bac6716e7ad3f40512a5592035e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-01.log",
+      "bytes": 1156,
+      "sha256": "c458c4678feccc8233e3a141a4d8faa6f5a0db3f9bf7028b47e6e1549be2a0bd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-01.sql",
+      "bytes": 659,
+      "sha256": "40ef5d9863a1085f5a5a507663e026f2544baa4e2cedbd85decee3440f7ba8c4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-01.xml",
+      "bytes": 8844,
+      "sha256": "2736e794a572f41edafcf5dece300cc4e2b63119e437862f9aee4797af154b4f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-01_antifor.db",
+      "bytes": 12288,
+      "sha256": "828faecaa6e05ba1d9b91b5d5ddf0287770a16558c76544a9346710ef1adb153"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-02.db_recovery",
+      "bytes": 60,
+      "sha256": "36905cc65a6cf632b0ada87adfe56b2076a4cbaad96c251023d15c78cca4d576"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-02.log",
+      "bytes": 1162,
+      "sha256": "bb66700ee6dfc1eaacce8a2a398ed82a182515ff198835f03ca4e9e10d1c9c98"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-02.sql",
+      "bytes": 659,
+      "sha256": "40ef5d9863a1085f5a5a507663e026f2544baa4e2cedbd85decee3440f7ba8c4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-02.xml",
+      "bytes": 8844,
+      "sha256": "8dbd20f7d65489eae53ce35760527450b4470af842fb1ac514477f5dce3293d4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/16/16-02_antifor.db",
+      "bytes": 12288,
+      "sha256": "d16622d3b352d475f9a886e8288881d29c6997bebc78e706ede15b511332b23b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-01.db_recovery",
+      "bytes": 7,
+      "sha256": "74881c5db222dd11ed9c1d59dc2b561632f837c0a8ed6efa7a7ce6beac90315f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-01.log",
+      "bytes": 935,
+      "sha256": "31eed557b572b431a15bc883c066dd16a4efed43eba7bfc44651c907a8875641"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-01.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-01.xml",
+      "bytes": 33046,
+      "sha256": "4ae12d1f5401baea315ffb8d014bc9d8f6b5c4de37dce2b6712b37755cdc777d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-01_antifor.db",
+      "bytes": 20480,
+      "sha256": "680925a6da413a5ae3dd34e9c2101c6e93dbf419f053ec0196b940020796b9f7"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-02.db_recovery",
+      "bytes": 28,
+      "sha256": "8b9df43c3d4161fdfc82600207adad9b444e5b65d978dcb551b5f46afba0d205"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-02.log",
+      "bytes": 1283,
+      "sha256": "501fec81cb58fcaee016288ca8e116fac156a2367c83c2973572eb68a57380b2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-02.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-02.xml",
+      "bytes": 33046,
+      "sha256": "30d4987c12b01880bf7f954b328e2a694028b9fb365da599ce784272bca4e1a9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-02_antifor.db",
+      "bytes": 20480,
+      "sha256": "01e83d2fb367bc4b66b9a10b51646eb8fc68078f20fc7a1a62e48a96c5daf928"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-03.db_recovery",
+      "bytes": 7,
+      "sha256": "1749cd1b6174e418c714c026e0f7e58a93dd76429903712cb56dcfdb1aae950f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-03.log",
+      "bytes": 901,
+      "sha256": "ef5a169dd5cfd30976600c0049671ec96291ddfe101e9c1fa077588bc13d7ac2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-03.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-03.xml",
+      "bytes": 33046,
+      "sha256": "79140f9b72c868875ced684fe8a1f142841ba96678c0c7f58c10786a506f9282"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-03_antifor.db",
+      "bytes": 20480,
+      "sha256": "9dc976db596b95ef8f24658380f2e2f1dcd3b21b3d649a8a20fd83d27d99291b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-04.db_recovery",
+      "bytes": 28,
+      "sha256": "16929767347e3c647b5f17c5f94fa7fed6d41edbe332d0d7e8267ff11a097e5a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-04.log",
+      "bytes": 1156,
+      "sha256": "3a73289864df80a1b6d277c21a405ed41ebb6b0ecb3020170bf80cf5141ec55c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-04.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-04.xml",
+      "bytes": 33046,
+      "sha256": "c7aa644fe5140206ef2476257eaae6aa9b765ad7830f572830844c31934d6b46"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-04_antifor.db",
+      "bytes": 20480,
+      "sha256": "d38ce0f6569b081a8a3b5316de2794f35b4d10f4b3ad2ec8ce9e2003f1507b6d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-05.db_recovery",
+      "bytes": 7,
+      "sha256": "b0815ce41fa4b5262c1a7c1b1f0b9436c13a09af9d55d65a1b5586cc80393c78"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-05.log",
+      "bytes": 905,
+      "sha256": "ae2b1a07b6cecb94784f5e255d0929f37b079674d8986b31e56a9015c53130c2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-05.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-05.xml",
+      "bytes": 33046,
+      "sha256": "69ce7dc17e7b024b16d7f3c9c59b7e49b5683b14e6d158c68e1ddb5508350a37"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-05_antifor.db",
+      "bytes": 20480,
+      "sha256": "1f7afc4f3085b57f3af623c1590523a43d31a51c0e3fa00575f9b76d5480d2f0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-06.db_recovery",
+      "bytes": 7,
+      "sha256": "b0815ce41fa4b5262c1a7c1b1f0b9436c13a09af9d55d65a1b5586cc80393c78"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-06.log",
+      "bytes": 864,
+      "sha256": "881950a10e62f4b4a6c7941d90b94733c40f181db1251d3a376bde0b46586a3f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-06.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-06.xml",
+      "bytes": 33046,
+      "sha256": "698cea16101334e67b41c4ba256dbdfc4a7dbc4edf58446dd417f79fa5e483fd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-06_antifor.db",
+      "bytes": 20480,
+      "sha256": "45e5cb244814a758db17b552d270af1088dabc30d61d26e112d962ac920a3ebe"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-07.db_recovery",
+      "bytes": 28,
+      "sha256": "6549f8c11562af7f995a319c22741cdcec61ebc234a2b3b5155a752eabb5c30e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-07.log",
+      "bytes": 1023,
+      "sha256": "75778239749e61a2919f21f27ae2be04774c4579d9703ffdd2ccdbe6ea904eb2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-07.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-07.xml",
+      "bytes": 33046,
+      "sha256": "3d57f214049f054115d622b0191d5ba65d1d38ebd04657d3ab35c37223af36cd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-07_antifor.db",
+      "bytes": 20480,
+      "sha256": "427bf486d0bd086ebe2a8ae24df74526037ab573f19178cd767590b3d0fffcd2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-08.db_recovery",
+      "bytes": 7,
+      "sha256": "48e0b85eaf9c0ac9b0a307b9a2facd56f220c7a2d33dea84b3e7c53931d06940"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-08.log",
+      "bytes": 918,
+      "sha256": "ae43fedb3d9c050dfbc466401637ea3b4a99d0803ffea3ac5a3fc8033f938072"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-08.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-08.xml",
+      "bytes": 33046,
+      "sha256": "3f0eea5dc66ab0a3a9c17cfd293cdb466661ed4d1578517bd17b6f65635dd525"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-08_antifor.db",
+      "bytes": 20480,
+      "sha256": "740ba7593229ccabfeb33a973b9da327e598c4a381021517d415a7f85a40a1d5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-09.db_recovery",
+      "bytes": 28,
+      "sha256": "e03cc8a9dd7c6cf2279da361707a9b9691e59f486d21564aadf2d677c1aeaac4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-09.log",
+      "bytes": 1212,
+      "sha256": "89d54d3b1b9d28e2439a13eee02016117086df65c5fcbdfffd08c91077b8d0e5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-09.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-09.xml",
+      "bytes": 33046,
+      "sha256": "6683172a9787b68d54be7eb0e2f211736322bc16fa55678ae81e0af241ce3a82"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-09_antifor.db",
+      "bytes": 20480,
+      "sha256": "b1dd53bfcf914c4d9ac49697ccf6d38a97dba7dcaf8af1d4d50a0beb638e6551"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-10.db_recovery",
+      "bytes": 7,
+      "sha256": "b0815ce41fa4b5262c1a7c1b1f0b9436c13a09af9d55d65a1b5586cc80393c78"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-10.log",
+      "bytes": 894,
+      "sha256": "155cfb90cc009802d41d054127a264713ecf993f63210c379e694e21808e0d37"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-10.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-10.xml",
+      "bytes": 33046,
+      "sha256": "ccabb90841fc9c546269443fe0bf5c4458599f71673945ee50615837796b54f3"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-10_antifor.db",
+      "bytes": 20480,
+      "sha256": "7a34867e82a5f05b0d71fc1979edac4957f63e13a99e3eb45bc69d1b03a2c558"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-11.db_recovery",
+      "bytes": 28,
+      "sha256": "70261cdbaa350101df75827bcf7b3519529703f93772e8c2bdd25ad6f2219b99"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-11.log",
+      "bytes": 1137,
+      "sha256": "cdb7720b1477de3641321de540e077f50cb5726b024b8f24f335f748127868b0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-11.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-11.xml",
+      "bytes": 33046,
+      "sha256": "082ad7c0f383162681f4d0ded2dec0af0293932b92fac7776267d88a9e976ca2"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-11_antifor.db",
+      "bytes": 20480,
+      "sha256": "219c71064191ff30d75471aed26e58e9706b02c651e41caa378d590ba76eb7bd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-12.db_recovery",
+      "bytes": 7,
+      "sha256": "61a04024ce2af5ddaf81a7e2c0a6756cb0a5f68034c00ff4cbcd91e1f8dc733f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-12.log",
+      "bytes": 904,
+      "sha256": "d9dabc220e8c70ee0af9ab41aae291220dfceca70cc224a4381da0f48b3f16c9"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-12.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-12.xml",
+      "bytes": 33046,
+      "sha256": "e23a9565ee3b955318b47d1dbd792322b9ea1e951723dbf59c44a4cfb63dff6a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-12_antifor.db",
+      "bytes": 20480,
+      "sha256": "37113e5002022d9684dcab85f46dce0b901878facfc2af0b0d338e1749124064"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-13.db_recovery",
+      "bytes": 28,
+      "sha256": "01daf69cbdf982becbb06fd1de011fd8ffc08c1f731a3b7e06723221474e1cde"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-13.log",
+      "bytes": 1168,
+      "sha256": "d603ba34bab240ee230bdc69467b7d1b7252c756d9e350ad15a70c840fd11355"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-13.sql",
+      "bytes": 5031,
+      "sha256": "700eea25578f28a867dee70bf811217aa2d87cfcb8f4760207eeb359a6251f6f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-13.xml",
+      "bytes": 33046,
+      "sha256": "7ed69d99e93cd620c8a7d1ffcd43eaddd2e520c1a7f64f46d319f5c768cc357d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/17/17-13_antifor.db",
+      "bytes": 20480,
+      "sha256": "e5663c2f019ce8fc3b6f1e2ec246bc09138bcef3fe38268b73bc4a05119352d4"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-01.db_recovery",
+      "bytes": 9,
+      "sha256": "d5e70407a9a3efaf1bbf563546b2bcae83490f2e7fbf7330680a733f28d218f8"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-01.log",
+      "bytes": 621,
+      "sha256": "cfc6ddd6f3988ed99fe8522d1c166c3447387d5719cba7057efefa8d0e78b61e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-01.sql",
+      "bytes": 64588,
+      "sha256": "fefdb56411863c45aed0b9bc458c74bce1aff50c31b6dece175c55bc579fd32e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-01.xml",
+      "bytes": 77881,
+      "sha256": "89384d75e50d1a4320519bef5324c5707a06cd18f9fb6ad4f7b1ee6cf4785c23"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-01_antifor.db",
+      "bytes": 94208,
+      "sha256": "b83f9f0deba532970b2316379c315888cf89b5fb6fc2a5906856d990c5bc606c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-02.db_recovery",
+      "bytes": 11,
+      "sha256": "3b6c1af0fcd65d2775b60b0f8f7e01a95f419b90d2a2c099464714c2eed8c19f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-02.log",
+      "bytes": 2336,
+      "sha256": "2f76dbcbae35c87523f3d756ce91ca28c568e02adb8abd1361074d761a9b953d"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-02.sql",
+      "bytes": 170624,
+      "sha256": "926d452d1acac5bf5a443397efc17bb5d65f5d6fec94aadd4f8178094666f557"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-02.xml",
+      "bytes": 300687,
+      "sha256": "e85eed68774f0ac09801fce5cf11e41053b5de330c1abccb4ce2671b6f480c3a"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-02_antifor.db",
+      "bytes": 190464,
+      "sha256": "985ef1d0d3303562e78af552abb9c6a201441b473164f659687efbd56b7f1906"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-03.db_recovery",
+      "bytes": 9,
+      "sha256": "3641b7626c5cf9bac2356ffff29aced77f94e751d69df9633d983f01987c7397"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-03.log",
+      "bytes": 2354,
+      "sha256": "9da6e788067568f9b6b122cc502489c0358ea8e0dee9404a42d2476f688a93b6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-03.sql",
+      "bytes": 170624,
+      "sha256": "926d452d1acac5bf5a443397efc17bb5d65f5d6fec94aadd4f8178094666f557"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-03.xml",
+      "bytes": 300687,
+      "sha256": "1524811af9fc85da0250c1170111afc8267a46a0229312df2ee419ec8f7c606f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-03_antifor.db",
+      "bytes": 190464,
+      "sha256": "81185c12be3e790cd8d6a8a2cae4a2f18d266c62dd9bad66b10b81bf859cc7cc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-04.db_recovery",
+      "bytes": 11,
+      "sha256": "3b6c1af0fcd65d2775b60b0f8f7e01a95f419b90d2a2c099464714c2eed8c19f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-04.log",
+      "bytes": 2318,
+      "sha256": "b0d10a2fc82bd23a8124e0605d096dd19cebe95941c65072ef4032db15c27cc0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-04.sql",
+      "bytes": 170624,
+      "sha256": "926d452d1acac5bf5a443397efc17bb5d65f5d6fec94aadd4f8178094666f557"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-04.xml",
+      "bytes": 300687,
+      "sha256": "54a349f3102039c0b9a8f4f6b666b64ab3dfabb1ba084324f498593bd3d4afa1"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-04_antifor.db",
+      "bytes": 190464,
+      "sha256": "aca5d104738a2124c509be2feeefb005b27fb1ab4bee9d45c6fc1de13700d0fe"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-05.db_recovery",
+      "bytes": 11,
+      "sha256": "339a6c79062a4bb0313acd32f8c78cec6f8ed379f615812067be9d52a3fbf1ad"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-05.log",
+      "bytes": 2348,
+      "sha256": "24cdcfd3c7d473bfe4a9b41b2ca38d62791e5c82f2a2be7f266c8dcb529dcb52"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-05.sql",
+      "bytes": 170624,
+      "sha256": "926d452d1acac5bf5a443397efc17bb5d65f5d6fec94aadd4f8178094666f557"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-05.xml",
+      "bytes": 300687,
+      "sha256": "c21f8408bde13c252ce95f6358e2bb5d9f332e0c8307634ce0168216bf1156fd"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/18/18-05_antifor.db",
+      "bytes": 190464,
+      "sha256": "d8c03278051b19b2980cd07e6ca0d70c2a9bc000aeaf8399e7139bf43c1fe7fa"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-01.db_recovery",
+      "bytes": 4,
+      "sha256": "12d90e461f810eeeaf8ef796789425d13b357a2a97b706870e8c99e8f0d356fe"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-01.log",
+      "bytes": 356,
+      "sha256": "17633af22d0b801ee330e5ddbd7b39dcafe731924cf330cbcf3baa81f23c6334"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-01.sql",
+      "bytes": 17716,
+      "sha256": "aa9f44e485bd01e97bb5f4d40c0d9c449db4958ead082d038f2370d8b44819bf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-01.xml",
+      "bytes": 156083,
+      "sha256": "38362ce95daba066924a5d53644b5f751fb6747e24c1b146aa7d628f72ff0ab5"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-01_antifor.db",
+      "bytes": 42750,
+      "sha256": "17f15743d6e9bbedd11b53a710a26e3f5b43b93cc780f2eb265182530117cd97"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-02.db_recovery",
+      "bytes": 1023,
+      "sha256": "0127cb4e4f88f125ba5d99d325ab0366b9c62e456e0e901643ad8295b8fbde74"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-02.log",
+      "bytes": 358,
+      "sha256": "ac38c38f20d7721acdf5319edcc41e0da76d9b2ffaf7619cd1742fa84ac3b89e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-02.sql",
+      "bytes": 17716,
+      "sha256": "aa9f44e485bd01e97bb5f4d40c0d9c449db4958ead082d038f2370d8b44819bf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-02.xml",
+      "bytes": 156083,
+      "sha256": "6d8f629e010e0b07305b8299d7de10ba7a5573ba1bcd6024fa4b245d30685c13"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-02_antifor.db",
+      "bytes": 39943,
+      "sha256": "73e4b5694c6be4770e13d4bc9bc94ee2dac55a8a0e46c11299c33ce5fbd59468"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-03.db_recovery",
+      "bytes": 12294,
+      "sha256": "974743494014b080ee7563e18c4ad246e984a533f38ed0934a1f96d0030cda4e"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-03.log",
+      "bytes": 360,
+      "sha256": "f04fb81a5165366ce1b151dec583854382f06247a940bf48069317ca63f6ec8f"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-03.sql",
+      "bytes": 17716,
+      "sha256": "aa9f44e485bd01e97bb5f4d40c0d9c449db4958ead082d038f2370d8b44819bf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-03.xml",
+      "bytes": 156083,
+      "sha256": "47b6117cd4f4f2e6a9861239f5b35b9b7fe407854f94d843e4f89849f6eaebfa"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-03_antifor.db",
+      "bytes": 28672,
+      "sha256": "adc599f3501f80342b989e57d5adea8f88e41579bcdb2598f0ca7fa06c7dbed6"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-04.db_recovery",
+      "bytes": 24582,
+      "sha256": "7ae4b52a2b4c51c9e7ee6f5ec2eb3bfdf10acc77364307b34937a196e795640c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-04.log",
+      "bytes": 407,
+      "sha256": "4378ab83e84691ac5206d5724504f3c82444b5b1329ecd98f4d791be01214258"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-04.sql",
+      "bytes": 17716,
+      "sha256": "aa9f44e485bd01e97bb5f4d40c0d9c449db4958ead082d038f2370d8b44819bf"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-04.xml",
+      "bytes": 156083,
+      "sha256": "1448f40e58e4b07fc9b5a40c61d48abdf566f513804c737ffbb40007a593e39b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/19/19-04_antifor.db",
+      "bytes": 16384,
+      "sha256": "bcf4b49b4f030dde6b84fa6de0ed4a014258967307200960190bf8b0285ad23c"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/README.txt",
+      "bytes": 7026,
+      "sha256": "442465d831eab1786b1e7b27a7de476a167cca39a5d877c7175dbcb4235e027b"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/files_dbs.txt",
+      "bytes": 2486,
+      "sha256": "a5eb09d2220885d8c066e4bd03a9e69cb86d82c9e11c63330ad9837a287892ba"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/files_sql.txt",
+      "bytes": 2115,
+      "sha256": "aa0bbd83e5699242a4fbe2ecd6cfc9093eaa0c4877fd6a0d225a04eea2e6dcbc"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/files_xml.txt",
+      "bytes": 2115,
+      "sha256": "dabbdb623c3e084d99609f0d681cbd77165b6db8847832c2acf0d43b2c4552e0"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/license.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "data/raw/sqlite_forensic_corpus_v2.0/sha256sums.txt",
+      "bytes": 45919,
+      "sha256": "4ea3a4907b91d87fbd56b5b3903f63563ce584011eea0769ec9672453f504b29"
+    }
+  ]
+}

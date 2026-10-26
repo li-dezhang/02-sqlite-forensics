@@ -1,0 +1,29 @@
+--- upstream/carved_cell.py
++++ local/carved_cell.py
+@@ -270,7 +270,7 @@
+         self.truncated_beginning = False
+         self.truncated_ending = False
+ 
+-        record_column_md5_hash_strings = [""] * self.number_of_columns
++        record_column_md5_hash_strings = [b""] * self.number_of_columns
+ 
+         column_index = 0
+         body_byte_size = 0
+@@ -337,7 +337,7 @@
+                         get_serial_type_signature(first_serial_type)
+                     )
+ 
+-                    record_column_md5_hash_strings[column_index] = ""
++                    record_column_md5_hash_strings[column_index] = b""
+ 
+                     self.serial_type_definition_size += first_serial_type_varint_length
+ 
+@@ -567,7 +567,7 @@
+                             get_serial_type_signature(first_serial_type)
+                         )
+ 
+-                        record_column_md5_hash_strings[column_index] = ""
++                        record_column_md5_hash_strings[column_index] = b""
+ 
+                         self.serial_type_definition_size += (
+                             first_serial_type_varint_length

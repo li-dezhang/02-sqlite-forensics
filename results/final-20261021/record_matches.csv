@@ -1,0 +1,372 @@
+case,tool,candidate,outcome,gold_index,values,gold_values,provenance
+0C-01,undark,0,incorrect_or_unattributed,,"[""1308622848"", ""36956"", ""-14497748""]",,CSV row 1; rowid=-1
+0C-01,undark,,not_recovered,0,,"[20001, 602075650, 564125138, 1823987023, 73199275]",XML reference
+0C-01,undark,,not_recovered,1,,"[20002, 251894444, 4034649640, -488066367, -44564254]",XML reference
+0C-01,undark,,not_recovered,2,,"[20005, 3780322152, 3909007646, 120462986, 1290558629]",XML reference
+0C-01,undark,,not_recovered,3,,"[20009, 2231280006, 3658390848, 881591422, 1145553]",XML reference
+0C-01,undark,,not_recovered,4,,"[20011, 624324220, 3585552096, 525994445, 448647659]",XML reference
+0C-01,undark,,not_recovered,5,,"[20015, 360853708, 1440875318, 1510736587, -1094609833]",XML reference
+0C-01,undark,,not_recovered,6,,"[20017, 4292717334, 1848777144, 1237429869, -659062187]",XML reference
+0C-01,sqlite_dissect,0,complete,6,"[20017, 4292717334, 1848777144, 1237429869, -659062187]","[20017, 4292717334, 1848777144, 1237429869, -659062187]",0C-01.db-users.csv; offset=7709; Freeblock
+0C-01,sqlite_dissect,1,complete,5,"[20015, 360853708, 1440875318, 1510736587, -1094609833]","[20015, 360853708, 1440875318, 1510736587, -1094609833]",0C-01.db-users.csv; offset=7765; Freeblock
+0C-01,sqlite_dissect,2,complete,4,"[20011, 624324220, 3585552096, 525994445, 448647659]","[20011, 624324220, 3585552096, 525994445, 448647659]",0C-01.db-users.csv; offset=7877; Freeblock
+0C-01,sqlite_dissect,3,complete,2,"[20005, 3780322152, 3909007646, 120462986, 1290558629]","[20005, 3780322152, 3909007646, 120462986, 1290558629]",0C-01.db-users.csv; offset=8048; Freeblock
+0C-01,sqlite_dissect,4,complete,0,"[20001, 602075650, 564125138, 1823987023, 73199275]","[20001, 602075650, 564125138, 1823987023, 73199275]",0C-01.db-users.csv; offset=8166; Freeblock
+0C-01,sqlite_dissect,5,complete,1,"[20002, 251894444, 4034649640, -488066367, -44564254]","[20002, 251894444, 4034649640, -488066367, -44564254]",0C-01.db-users.csv; offset=8138; Freeblock
+0C-01,sqlite_dissect,,not_recovered,3,,"[20009, 2231280006, 3658390848, 881591422, 1145553]",XML reference
+0C-02,undark,0,incorrect_or_unattributed,,"[""1308622848"", ""35699"", ""-739495161""]",,CSV row 1; rowid=-1
+0C-02,undark,1,incorrect_or_unattributed,,"[""1308622848"", ""65424"", ""287633833""]",,CSV row 2; rowid=-1
+0C-02,undark,,not_recovered,0,,"[20007, 3148151238, 1184119764, -1351445646, 202407155]",XML reference
+0C-02,undark,,not_recovered,1,,"[20010, 3887775016, 4128335404, -500367672, -1093091319]",XML reference
+0C-02,undark,,not_recovered,2,,"[20013, 3913016760, 2320078094, 123098708, -1008565384]",XML reference
+0C-02,undark,,not_recovered,3,,"[20017, 1497367966, 2177685388, 285359082, -123629207]",XML reference
+0C-02,undark,,not_recovered,4,,"[20020, 2231985378, 2186008546, 794595521, 961678683]",XML reference
+0C-02,undark,,not_recovered,5,,"[20001, 821103716, 1986289196, -1045282213, 459319332]",XML reference
+0C-02,undark,,not_recovered,6,,"[20010, 1429136444, 3665756870, -1075666529, 2054379117]",XML reference
+0C-02,undark,,not_recovered,7,,"[20011, 873253246, 1312577478, -1135809168, 1461417528]",XML reference
+0C-02,undark,,not_recovered,8,,"[20012, 777131548, 565986676, -592748166, -274158570]",XML reference
+0C-02,undark,,not_recovered,9,,"[20014, 631167718, 1940873726, 620076936, 833104276]",XML reference
+0C-02,sqlite_dissect,0,complete,9,"[20014, 631167718, 1940873726, 620076936, 833104276]","[20014, 631167718, 1940873726, 620076936, 833104276]",0C-02.db-secondTable.csv; offset=11900; Freeblock
+0C-02,sqlite_dissect,1,complete,6,"[20010, 1429136444, 3665756870, -1075666529, 2054379117]","[20010, 1429136444, 3665756870, -1075666529, 2054379117]",0C-02.db-secondTable.csv; offset=12006; Freeblock
+0C-02,sqlite_dissect,2,complete,7,"[20011, 873253246, 1312577478, -1135809168, 1461417528]","[20011, 873253246, 1312577478, -1135809168, 1461417528]",0C-02.db-secondTable.csv; offset=11980; Freeblock
+0C-02,sqlite_dissect,3,complete,8,"[20012, 777131548, 565986676, -592748166, -274158570]","[20012, 777131548, 565986676, -592748166, -274158570]",0C-02.db-secondTable.csv; offset=11954; Freeblock
+0C-02,sqlite_dissect,4,complete,5,"[20001, 821103716, 1986289196, -1045282213, 459319332]","[20001, 821103716, 1986289196, -1045282213, 459319332]",0C-02.db-secondTable.csv; offset=12262; Freeblock
+0C-02,sqlite_dissect,5,complete,3,"[20017, 1497367966, 2177685388, 285359082, -123629207]","[20017, 1497367966, 2177685388, 285359082, -123629207]",0C-02.db-users.csv; offset=7716; Freeblock
+0C-02,sqlite_dissect,6,complete,2,"[20013, 3913016760, 2320078094, 123098708, -1008565384]","[20013, 3913016760, 2320078094, 123098708, -1008565384]",0C-02.db-users.csv; offset=7828; Freeblock
+0C-02,sqlite_dissect,7,complete,1,"[20010, 3887775016, 4128335404, -500367672, -1093091319]","[20010, 3887775016, 4128335404, -500367672, -1093091319]",0C-02.db-users.csv; offset=7914; Freeblock
+0C-02,sqlite_dissect,8,complete,0,"[20007, 3148151238, 1184119764, -1351445646, 202407155]","[20007, 3148151238, 1184119764, -1351445646, 202407155]",0C-02.db-users.csv; offset=7998; Freeblock
+0C-02,sqlite_dissect,9,complete,4,"[20020, 2231985378, 2186008546, 794595521, 961678683]","[20020, 2231985378, 2186008546, 794595521, 961678683]",0C-02.db-users.csv; offset=7633; Unallocated Space
+0C-03,undark,0,incorrect_or_unattributed,,"[491660365, ""25961"", ""keBer""]",,CSV row 1; rowid=-1
+0C-03,undark,,not_recovered,0,,"[20002, ""Lukas"", ""Wolff""]",XML reference
+0C-03,undark,,not_recovered,1,,"[20003, ""Dennis"", ""Sommer""]",XML reference
+0C-03,undark,,not_recovered,2,,"[20005, ""Anja"", ""Roth""]",XML reference
+0C-03,undark,,not_recovered,3,,"[20007, ""Silvia"", ""Horn""]",XML reference
+0C-03,undark,,not_recovered,4,,"[20008, ""Meike"", ""Winkler""]",XML reference
+0C-03,undark,,not_recovered,5,,"[20017, ""Nele"", ""Baumann""]",XML reference
+0C-03,undark,,not_recovered,6,,"[20020, ""Yvonne"", ""Weiß""]",XML reference
+0C-03,sqlite_dissect,0,incorrect_or_unattributed,,"[""b'n'"", """", """"]",,0C-03.db-users.csv; offset=7865; Freeblock
+0C-03,sqlite_dissect,1,incorrect_or_unattributed,,"[24942, ""n"", """"]",,0C-03.db-users.csv; offset=7863; Freeblock
+0C-03,sqlite_dissect,2,incorrect_or_unattributed,,"[30061, ""b'ann'"", """"]",,0C-03.db-users.csv; offset=7861; Freeblock
+0C-03,sqlite_dissect,3,incorrect_or_unattributed,,"[16993, ""b'umann'"", """"]",,0C-03.db-users.csv; offset=7859; Freeblock
+0C-03,sqlite_dissect,4,incorrect_or_unattributed,,"[27749, ""b'Baumann'"", """"]",,0C-03.db-users.csv; offset=7857; Freeblock
+0C-03,sqlite_dissect,5,incorrect_or_unattributed,,"[20069, ""b'leBaumann'"", """"]",,0C-03.db-users.csv; offset=7855; Freeblock
+0C-03,sqlite_dissect,6,complete,5,"[20017, ""Nele"", ""Baumann""]","[20017, ""Nele"", ""Baumann""]",0C-03.db-users.csv; offset=7853; Freeblock
+0C-03,sqlite_dissect,7,incorrect_or_unattributed,,"["""", """", """"]",,0C-03.db-users.csv; offset=8070; Freeblock
+0C-03,sqlite_dissect,8,incorrect_or_unattributed,,"[29294, """", """"]",,0C-03.db-users.csv; offset=8068; Freeblock
+0C-03,sqlite_dissect,9,incorrect_or_unattributed,,"[18543, ""rn"", """"]",,0C-03.db-users.csv; offset=8066; Freeblock
+0C-03,sqlite_dissect,10,incorrect_or_unattributed,,"[26977, ""b'Horn'"", """"]",,0C-03.db-users.csv; offset=8064; Freeblock
+0C-03,sqlite_dissect,11,incorrect_or_unattributed,,"[27766, ""iaHorn"", """"]",,0C-03.db-users.csv; offset=8062; Freeblock
+0C-03,sqlite_dissect,12,incorrect_or_unattributed,,"[21353, ""b'lviaHorn'"", """"]",,0C-03.db-users.csv; offset=8060; Freeblock
+0C-03,sqlite_dissect,13,complete,3,"[20007, ""Silvia"", ""Horn""]","[20007, ""Silvia"", ""Horn""]",0C-03.db-users.csv; offset=8058; Freeblock
+0C-03,sqlite_dissect,14,incorrect_or_unattributed,,"[4103, ""    N'SilviaHorn"", """"]",,0C-03.db-users.csv; offset=8052; Freeblock
+0C-03,sqlite_dissect,15,incorrect_or_unattributed,,"[25970, ""      N'SilviaHorn"", """"]",,0C-03.db-users.csv; offset=8050; Freeblock
+0C-03,sqlite_dissect,16,incorrect_or_unattributed,,"[27500, ""er      N'SilviaHorn"", """"]",,0C-03.db-users.csv; offset=8048; Freeblock
+0C-03,sqlite_dissect,17,incorrect_or_unattributed,,"[26990, ""kler      N'SilviaHorn"", """"]",,0C-03.db-users.csv; offset=8046; Freeblock
+0C-03,sqlite_dissect,18,incorrect_or_unattributed,,"[25943, ""inkler      N'SilviaHorn"", """"]",,0C-03.db-users.csv; offset=8044; Freeblock
+0C-03,sqlite_dissect,19,incorrect_or_unattributed,,"[26987, ""eWinkler      N'SilviaHorn"", """"]",,0C-03.db-users.csv; offset=8042; Freeblock
+0C-03,sqlite_dissect,20,incorrect_or_unattributed,,"[19813, ""b\""ikeWinkler\\x10\\x07\\x04\\x02\\x19\\x15N'SilviaHorn\"""", """"]",,0C-03.db-users.csv; offset=8040; Freeblock
+0C-03,sqlite_dissect,21,incorrect_or_unattributed,,"[-30962, ""b'\\x87'"", ""b'\\x0e\\x87\\x0e\\x87\\x0et\\x0et\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-03.db-users.csv; offset=4130; Unallocated Space
+0C-03,sqlite_dissect,22,incorrect_or_unattributed,,"["""", """", """"]",,0C-03.db-users.csv; offset=8109; Freeblock
+0C-03,sqlite_dissect,23,incorrect_or_unattributed,,"[29800, """", """"]",,0C-03.db-users.csv; offset=8107; Freeblock
+0C-03,sqlite_dissect,24,incorrect_or_unattributed,,"[21103, ""b'th'"", """"]",,0C-03.db-users.csv; offset=8105; Freeblock
+0C-03,sqlite_dissect,25,incorrect_or_unattributed,,"[27233, ""Roth"", """"]",,0C-03.db-users.csv; offset=8103; Freeblock
+0C-03,sqlite_dissect,26,incorrect_or_unattributed,,"[16750, ""b'jaRoth'"", """"]",,0C-03.db-users.csv; offset=8101; Freeblock
+0C-03,sqlite_dissect,27,complete,2,"[20005, ""Anja"", ""Roth""]","[20005, ""Anja"", ""Roth""]",0C-03.db-users.csv; offset=8099; Freeblock
+0C-03,sqlite_dissect,28,incorrect_or_unattributed,,"[""b'f'"", """", """"]",,0C-03.db-users.csv; offset=8167; Freeblock
+0C-03,sqlite_dissect,29,incorrect_or_unattributed,,"[27750, ""f"", """"]",,0C-03.db-users.csv; offset=8165; Freeblock
+0C-03,sqlite_dissect,30,incorrect_or_unattributed,,"[22383, ""lff"", """"]",,0C-03.db-users.csv; offset=8163; Freeblock
+0C-03,sqlite_dissect,31,incorrect_or_unattributed,,"[24947, ""Wolff"", """"]",,0C-03.db-users.csv; offset=8161; Freeblock
+0C-03,sqlite_dissect,32,incorrect_or_unattributed,,"[30059, ""b'asWolff'"", """"]",,0C-03.db-users.csv; offset=8159; Freeblock
+0C-03,sqlite_dissect,33,incorrect_or_unattributed,,"[8780, ""ukasW"", ""b'olff'""]",,0C-03.db-users.csv; offset=8157; Freeblock
+0C-03,sqlite_dissect,34,incorrect_or_unattributed,,"[5966, ""b'\""Lu'"", ""kasWo""]",,0C-03.db-users.csv; offset=8155; Freeblock
+0C-03,sqlite_dissect,35,incorrect_or_unattributed,,"[0, ""    N\""LukasWolff"", """"]",,0C-03.db-users.csv; offset=8150; Freeblock
+0C-03,sqlite_dissect,36,incorrect_or_unattributed,,"[25970, ""      N\""LukasWolff"", """"]",,0C-03.db-users.csv; offset=8148; Freeblock
+0C-03,sqlite_dissect,37,incorrect_or_unattributed,,"[28013, ""er      N\""LukasWolff"", """"]",,0C-03.db-users.csv; offset=8146; Freeblock
+0C-03,sqlite_dissect,38,incorrect_or_unattributed,,"[21359, ""mmer      N\""LukasWolff"", """"]",,0C-03.db-users.csv; offset=8144; Freeblock
+0C-03,sqlite_dissect,39,incorrect_or_unattributed,,"[26995, ""b'Sommer\\x00\\x00\\x00\\x12\\x17\\x17N\""LukasWolff'"", """"]",,0C-03.db-users.csv; offset=8142; Freeblock
+0C-03,sqlite_dissect,40,incorrect_or_unattributed,,"[28270, ""b'isSommer\\x00\\x00\\x00\\x12\\x17\\x17N\""LukasWolff'"", """"]",,0C-03.db-users.csv; offset=8140; Freeblock
+0C-03,sqlite_dissect,41,incorrect_or_unattributed,,"[17509, ""b'nnisSommer\\x00\\x00\\x00\\x12\\x17\\x17N\""LukasWolff'"", """"]",,0C-03.db-users.csv; offset=8138; Freeblock
+0C-03,sqlite_dissect,42,complete,6,"[20020, ""Yvonne"", ""Weiß""]","[20020, ""Yvonne"", ""Weiß""]",0C-03.db-users.csv; offset=7799; Unallocated Space
+0C-03,sqlite_dissect,43,incorrect_or_unattributed,,"[27075, ""�"", """"]",,0C-03.db-users.csv; offset=7810; Unallocated Space
+0C-03,sqlite_dissect,44,incorrect_or_unattributed,,"[22373, ""b'i\\xc3\\x9f'"", """"]",,0C-03.db-users.csv; offset=7808; Unallocated Space
+0C-03,sqlite_dissect,45,incorrect_or_unattributed,,"[28261, ""Weiß"", """"]",,0C-03.db-users.csv; offset=7806; Unallocated Space
+0C-03,sqlite_dissect,46,incorrect_or_unattributed,,"[28526, ""neWeiß"", """"]",,0C-03.db-users.csv; offset=7804; Unallocated Space
+0C-03,sqlite_dissect,47,incorrect_or_unattributed,,"[22902, ""b'onneWei\\xc3\\x9f'"", """"]",,0C-03.db-users.csv; offset=7802; Unallocated Space
+0C-03,sqlite_dissect,48,incorrect_or_unattributed,,"[1026, ""  "", ""b'N4Yv'""]",,0C-03.db-users.csv; offset=7796; Unallocated Space
+0C-03,sqlite_dissect,49,incorrect_or_unattributed,,"[29696, ""b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'"", ""b'\\x00'""]",,0C-03.db-users.csv; offset=4141; Unallocated Space
+0C-03,sqlite_dissect,50,incorrect_or_unattributed,,"[29710, ""b't\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'"", ""b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-03.db-users.csv; offset=4137; Unallocated Space
+0C-03,sqlite_dissect,,not_recovered,0,,"[20002, ""Lukas"", ""Wolff""]",XML reference
+0C-03,sqlite_dissect,,not_recovered,1,,"[20003, ""Dennis"", ""Sommer""]",XML reference
+0C-03,sqlite_dissect,,not_recovered,4,,"[20008, ""Meike"", ""Winkler""]",XML reference
+0C-04,undark,0,incorrect_or_unattributed,,"[12804460, ""Ben"", ""Busch""]",,CSV row 1; rowid=-1
+0C-04,undark,,not_recovered,0,,"[50001, ""Gustav"", ""Klein""]",XML reference
+0C-04,undark,,not_recovered,1,,"[50003, ""Melanie"", ""Bauer""]",XML reference
+0C-04,undark,,not_recovered,2,,"[50012, ""Lara"", ""Heinrich""]",XML reference
+0C-04,undark,,not_recovered,3,,"[50013, ""Manuela"", ""Martin""]",XML reference
+0C-04,undark,,not_recovered,4,,"[50018, ""Lars"", ""Werner""]",XML reference
+0C-04,undark,,not_recovered,5,,"[20001, ""Johannes"", ""Neumann""]",XML reference
+0C-04,undark,,not_recovered,6,,"[20010, ""Nico"", ""Arnold""]",XML reference
+0C-04,undark,,not_recovered,7,,"[20011, ""Jannik"", ""Meier""]",XML reference
+0C-04,undark,,not_recovered,8,,"[20012, ""Wilhelm"", ""Schulte""]",XML reference
+0C-04,undark,,not_recovered,9,,"[20014, ""Philipp"", ""Bauer""]",XML reference
+0C-04,sqlite_dissect,0,incorrect_or_unattributed,,"["""", """", """"]",,0C-04.db-members.csv; offset=12010; Freeblock
+0C-04,sqlite_dissect,1,incorrect_or_unattributed,,"[25970, """", """"]",,0C-04.db-members.csv; offset=12008; Freeblock
+0C-04,sqlite_dissect,2,incorrect_or_unattributed,,"[24949, ""b'er'"", """"]",,0C-04.db-members.csv; offset=12006; Freeblock
+0C-04,sqlite_dissect,3,incorrect_or_unattributed,,"[28738, ""auer"", """"]",,0C-04.db-members.csv; offset=12004; Freeblock
+0C-04,sqlite_dissect,4,incorrect_or_unattributed,,"[26992, ""pBauer"", """"]",,0C-04.db-members.csv; offset=12002; Freeblock
+0C-04,sqlite_dissect,5,incorrect_or_unattributed,,"[26988, ""b'ippBauer'"", """"]",,0C-04.db-members.csv; offset=12000; Freeblock
+0C-04,sqlite_dissect,6,incorrect_or_unattributed,,"[20584, ""b'ilippBauer'"", """"]",,0C-04.db-members.csv; offset=11998; Freeblock
+0C-04,sqlite_dissect,7,complete,9,"[20014, ""Philipp"", ""Bauer""]","[20014, ""Philipp"", ""Bauer""]",0C-04.db-members.csv; offset=11996; Freeblock
+0C-04,sqlite_dissect,8,incorrect_or_unattributed,,"[""b'd'"", """", """"]",,0C-04.db-members.csv; offset=12088; Freeblock
+0C-04,sqlite_dissect,9,incorrect_or_unattributed,,"[28524, ""b'd'"", """"]",,0C-04.db-members.csv; offset=12086; Freeblock
+0C-04,sqlite_dissect,10,incorrect_or_unattributed,,"[29294, ""old"", """"]",,0C-04.db-members.csv; offset=12084; Freeblock
+0C-04,sqlite_dissect,11,incorrect_or_unattributed,,"[28481, ""rnold"", """"]",,0C-04.db-members.csv; offset=12082; Freeblock
+0C-04,sqlite_dissect,12,incorrect_or_unattributed,,"[26979, ""b'oArnold'"", """"]",,0C-04.db-members.csv; offset=12080; Freeblock
+0C-04,sqlite_dissect,13,incorrect_or_unattributed,,"[10830, ""icoArn"", ""b'old'""]",,0C-04.db-members.csv; offset=12078; Freeblock
+0C-04,sqlite_dissect,14,incorrect_or_unattributed,,"[6478, ""b'*Ni'"", ""coAr""]",,0C-04.db-members.csv; offset=12076; Freeblock
+0C-04,sqlite_dissect,15,incorrect_or_unattributed,,"[0, ""    N*NicoArnold"", """"]",,0C-04.db-members.csv; offset=12071; Freeblock
+0C-04,sqlite_dissect,16,incorrect_or_unattributed,,"[25970, ""      N*NicoArnold"", """"]",,0C-04.db-members.csv; offset=12069; Freeblock
+0C-04,sqlite_dissect,17,incorrect_or_unattributed,,"[25961, ""er      N*NicoArnold"", """"]",,0C-04.db-members.csv; offset=12067; Freeblock
+0C-04,sqlite_dissect,18,incorrect_or_unattributed,,"[27469, ""b'eier\\x00\\x00\\x00\\x12\\x15\\x19N*NicoArnold'"", """"]",,0C-04.db-members.csv; offset=12065; Freeblock
+0C-04,sqlite_dissect,19,incorrect_or_unattributed,,"[28265, ""kMeier      N*NicoArnold"", """"]",,0C-04.db-members.csv; offset=12063; Freeblock
+0C-04,sqlite_dissect,20,incorrect_or_unattributed,,"[24942, ""nikMeier      N"", ""b'*NicoArnold'""]",,0C-04.db-members.csv; offset=12061; Freeblock
+0C-04,sqlite_dissect,21,incorrect_or_unattributed,,"[11082, ""annik"", ""b'Meier\\x00\\x00\\x00\\x12\\x15\\x19N*NicoArnold'""]",,0C-04.db-members.csv; offset=12059; Freeblock
+0C-04,sqlite_dissect,22,incorrect_or_unattributed,,"[5966, ""+JannikMeier"", ""      ""]",,0C-04.db-members.csv; offset=12057; Freeblock
+0C-04,sqlite_dissect,23,incorrect_or_unattributed,,"[9497, "" "", ""b'N+JannikMeier\\x00\\x00\\x00\\x12\\x15\\x19N*NicoArnold'""]",,0C-04.db-members.csv; offset=12054; Freeblock
+0C-04,sqlite_dissect,24,incorrect_or_unattributed,,"[4073, ""b'\\x00%\\x19\\x17N+JannikMeier\\x00\\x00\\x00\\x12\\x15\\x19N*NicoArnold'"", """"]",,0C-04.db-members.csv; offset=12052; Freeblock
+0C-04,sqlite_dissect,25,incorrect_or_unattributed,,"[29797, "" � %  N+JannikMeier      N*NicoArnold"", """"]",,0C-04.db-members.csv; offset=12050; Freeblock
+0C-04,sqlite_dissect,26,incorrect_or_unattributed,,"[30060, ""te � %  N+JannikMeier      N*NicoArnold"", """"]",,0C-04.db-members.csv; offset=12048; Freeblock
+0C-04,sqlite_dissect,27,incorrect_or_unattributed,,"[25448, ""ulte � %  N+JannikMeier      N*NicoArnold"", """"]",,0C-04.db-members.csv; offset=12046; Freeblock
+0C-04,sqlite_dissect,28,incorrect_or_unattributed,,"[27987, ""chulte � %  N+JannikMeier      N*NicoArnold"", """"]",,0C-04.db-members.csv; offset=12044; Freeblock
+0C-04,sqlite_dissect,29,incorrect_or_unattributed,,"[25964, ""b'mSchulte\\x0f\\xe9\\x00%\\x19\\x17N+JannikMeier\\x00\\x00\\x00\\x12\\x15\\x19N*NicoArnold'"", """"]",,0C-04.db-members.csv; offset=12042; Freeblock
+0C-04,sqlite_dissect,30,incorrect_or_unattributed,,"[27752, ""elmSchulte � %  N+JannikMeier      N*"", ""NicoArnold""]",,0C-04.db-members.csv; offset=12040; Freeblock
+0C-04,sqlite_dissect,31,incorrect_or_unattributed,,"[22377, ""b'lhelmSchulte\\x0f\\xe9\\x00%\\x19\\x17N+JannikMeier\\x00\\x00'"", ""b'\\x00\\x12\\x15\\x19N*NicoArnold'""]",,0C-04.db-members.csv; offset=12038; Freeblock
+0C-04,sqlite_dissect,32,incorrect_or_unattributed,,"[3688, ""b'\\x0e'"", ""b'h\\x0eh\\x0eh\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-04.db-members.csv; offset=8230; Unallocated Space
+0C-04,sqlite_dissect,33,incorrect_or_unattributed,,"[""b'n'"", """", """"]",,0C-04.db-members.csv; offset=12281; Freeblock
+0C-04,sqlite_dissect,34,incorrect_or_unattributed,,"[24942, ""n"", """"]",,0C-04.db-members.csv; offset=12279; Freeblock
+0C-04,sqlite_dissect,35,incorrect_or_unattributed,,"[30061, ""b'ann'"", """"]",,0C-04.db-members.csv; offset=12277; Freeblock
+0C-04,sqlite_dissect,36,incorrect_or_unattributed,,"[20069, ""umann"", """"]",,0C-04.db-members.csv; offset=12275; Freeblock
+0C-04,sqlite_dissect,37,incorrect_or_unattributed,,"[25971, ""b'Neumann'"", """"]",,0C-04.db-members.csv; offset=12273; Freeblock
+0C-04,sqlite_dissect,38,incorrect_or_unattributed,,"[28270, ""b'esNeumann'"", """"]",,0C-04.db-members.csv; offset=12271; Freeblock
+0C-04,sqlite_dissect,39,incorrect_or_unattributed,,"[26721, ""b'nnesNeumann'"", """"]",,0C-04.db-members.csv; offset=12269; Freeblock
+0C-04,sqlite_dissect,40,incorrect_or_unattributed,,"[19055, ""b'hannesNeumann'"", """"]",,0C-04.db-members.csv; offset=12267; Freeblock
+0C-04,sqlite_dissect,41,complete,5,"[20001, ""Johannes"", ""Neumann""]","[20001, ""Johannes"", ""Neumann""]",0C-04.db-members.csv; offset=12265; Freeblock
+0C-04,sqlite_dissect,42,incorrect_or_unattributed,,"[0, ""b'\\x00'"", ""b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-04.db-members.csv; offset=8238; Unallocated Space
+0C-04,sqlite_dissect,43,incorrect_or_unattributed,,"[3688, ""b'\\x00'"", ""b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-04.db-members.csv; offset=8236; Unallocated Space
+0C-04,sqlite_dissect,44,incorrect_or_unattributed,,"[3688, ""b'\\x0e'"", ""b'h\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-04.db-members.csv; offset=8234; Unallocated Space
+0C-04,sqlite_dissect,45,incorrect_or_unattributed,,"[""b'r'"", """", """"]",,0C-04.db-users.csv; offset=7829; Freeblock
+0C-04,sqlite_dissect,46,incorrect_or_unattributed,,"[7234930, """", """"]",,0C-04.db-users.csv; offset=7827; Freeblock
+0C-04,sqlite_dissect,47,incorrect_or_unattributed,,"[6648430, ""er"", """"]",,0C-04.db-users.csv; offset=7825; Freeblock
+0C-04,sqlite_dissect,48,incorrect_or_unattributed,,"[7559013, ""rner"", """"]",,0C-04.db-users.csv; offset=7823; Freeblock
+0C-04,sqlite_dissect,49,incorrect_or_unattributed,,"[6646881, ""nieBauer"", """"]",,0C-04.db-users.csv; offset=8131; Freeblock
+0C-04,sqlite_dissect,50,complete,4,"[50018, ""Lars"", ""Werner""]","[50018, ""Lars"", ""Werner""]",0C-04.db-users.csv; offset=7817; Freeblock
+0C-04,sqlite_dissect,51,incorrect_or_unattributed,,"[""b'h'"", """", """"]",,0C-04.db-users.csv; offset=7945; Freeblock
+0C-04,sqlite_dissect,52,incorrect_or_unattributed,,"[6906728, """", """"]",,0C-04.db-users.csv; offset=7943; Freeblock
+0C-04,sqlite_dissect,53,incorrect_or_unattributed,,"[7238249, ""ch"", """"]",,0C-04.db-users.csv; offset=7941; Freeblock
+0C-04,sqlite_dissect,54,incorrect_or_unattributed,,"[6646126, ""rich"", """"]",,0C-04.db-users.csv; offset=7939; Freeblock
+0C-04,sqlite_dissect,55,incorrect_or_unattributed,,"[6375525, ""inrich"", """"]",,0C-04.db-users.csv; offset=7937; Freeblock
+0C-04,sqlite_dissect,56,incorrect_or_unattributed,,"[6386273, ""b'Heinrich'"", """"]",,0C-04.db-users.csv; offset=7934; Freeblock
+0C-04,sqlite_dissect,57,complete,2,"[50012, ""Lara"", ""Heinrich""]","[50012, ""Lara"", ""Heinrich""]",0C-04.db-users.csv; offset=7931; Freeblock
+0C-04,sqlite_dissect,58,incorrect_or_unattributed,,"[262933, ""  �"", ""b''""]",,0C-04.db-users.csv; offset=7927; Freeblock
+0C-04,sqlite_dissect,59,incorrect_or_unattributed,,"[1248260, ""    �\\LaraHeinrich"", """"]",,0C-04.db-users.csv; offset=7925; Freeblock
+0C-04,sqlite_dissect,60,incorrect_or_unattributed,,"[6909459, ""b'\\x0c\\x04\\x03\\x15\\x1d\\x00\\xc3\\\\LaraHeinrich'"", """"]",,0C-04.db-users.csv; offset=7923; Freeblock
+0C-04,sqlite_dissect,61,incorrect_or_unattributed,,"[7500905, ""n       �\\LaraHeinrich"", """"]",,0C-04.db-users.csv; offset=7921; Freeblock
+0C-04,sqlite_dissect,62,incorrect_or_unattributed,,"[5071218, ""b'tin\\x13\\x0c\\x04\\x03\\x15\\x1d\\x00\\xc3\\\\LaraHeinrich'"", """"]",,0C-04.db-users.csv; offset=7919; Freeblock
+0C-04,sqlite_dissect,63,incorrect_or_unattributed,,"[7102797, ""artin       �\\LaraHeinrich"", """"]",,0C-04.db-users.csv; offset=7917; Freeblock
+0C-04,sqlite_dissect,64,incorrect_or_unattributed,,"[7693676, ""aMartin       �\\LaraHeinrich"", """"]",,0C-04.db-users.csv; offset=7915; Freeblock
+0C-04,sqlite_dissect,65,incorrect_or_unattributed,,"[6385269, ""elaMartin       �\\LaraHeinrich"", """"]",,0C-04.db-users.csv; offset=7912; Freeblock
+0C-04,sqlite_dissect,66,incorrect_or_unattributed,,"[942094, ""b'`'"", ""b'\\x0e`\\x0e`\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-04.db-users.csv; offset=4134; Unallocated Space
+0C-04,sqlite_dissect,67,incorrect_or_unattributed,,"[""b'r'"", """", """"]",,0C-04.db-users.csv; offset=8142; Freeblock
+0C-04,sqlite_dissect,68,incorrect_or_unattributed,,"[7693682, """", """"]",,0C-04.db-users.csv; offset=8140; Freeblock
+0C-04,sqlite_dissect,69,incorrect_or_unattributed,,"[4350325, ""er"", """"]",,0C-04.db-users.csv; offset=8138; Freeblock
+0C-04,sqlite_dissect,70,incorrect_or_unattributed,,"[6907202, ""auer"", """"]",,0C-04.db-users.csv; offset=8136; Freeblock
+0C-04,sqlite_dissect,71,incorrect_or_unattributed,,"[6385257, ""eBauer"", """"]",,0C-04.db-users.csv; offset=8134; Freeblock
+0C-04,sqlite_dissect,72,complete,1,"[50003, ""Melanie"", ""Bauer""]","[50003, ""Melanie"", ""Bauer""]",0C-04.db-users.csv; offset=8128; Freeblock
+0C-04,sqlite_dissect,73,incorrect_or_unattributed,,"["""", """", """"]",,0C-04.db-users.csv; offset=8186; Freeblock
+0C-04,sqlite_dissect,74,incorrect_or_unattributed,,"[""b'in'"", """", """"]",,0C-04.db-users.csv; offset=8184; Freeblock
+0C-04,sqlite_dissect,75,incorrect_or_unattributed,,"[7103849, ""b'n'"", """"]",,0C-04.db-users.csv; offset=8182; Freeblock
+0C-04,sqlite_dissect,76,incorrect_or_unattributed,,"[7752556, ""b'ein'"", """"]",,0C-04.db-users.csv; offset=8180; Freeblock
+0C-04,sqlite_dissect,77,incorrect_or_unattributed,,"[7627126, ""Klein"", """"]",,0C-04.db-users.csv; offset=8178; Freeblock
+0C-04,sqlite_dissect,78,incorrect_or_unattributed,,"[7697268, ""avKlein"", """"]",,0C-04.db-users.csv; offset=8175; Freeblock
+0C-04,sqlite_dissect,79,complete,0,"[50001, ""Gustav"", ""Klein""]","[50001, ""Gustav"", ""Klein""]",0C-04.db-users.csv; offset=8172; Freeblock
+0C-04,sqlite_dissect,80,incorrect_or_unattributed,,"[0, ""b'\\x00'"", ""b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-04.db-users.csv; offset=4142; Unallocated Space
+0C-04,sqlite_dissect,81,incorrect_or_unattributed,,"[942080, ""b'\\x00'"", ""b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-04.db-users.csv; offset=4140; Unallocated Space
+0C-04,sqlite_dissect,82,incorrect_or_unattributed,,"[942094, ""b'`'"", ""b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'""]",,0C-04.db-users.csv; offset=4138; Unallocated Space
+0C-04,sqlite_dissect,,not_recovered,3,,"[50013, ""Manuela"", ""Martin""]",XML reference
+0C-04,sqlite_dissect,,not_recovered,6,,"[20010, ""Nico"", ""Arnold""]",XML reference
+0C-04,sqlite_dissect,,not_recovered,7,,"[20011, ""Jannik"", ""Meier""]",XML reference
+0C-04,sqlite_dissect,,not_recovered,8,,"[20012, ""Wilhelm"", ""Schulte""]",XML reference
+0C-05,undark,0,incorrect_or_unattributed,,"[""385875968"", ""1634885894"", ""Wolff""]",,CSV row 1; rowid=-1
+0C-05,undark,,not_recovered,0,,"[50003, ""Jan"", ""Jäger"", 661493766, -820579705]",XML reference
+0C-05,undark,,not_recovered,1,,"[50009, ""Adrian"", ""Schubert"", 3679030046, -220015919]",XML reference
+0C-05,undark,,not_recovered,2,,"[50011, ""Finn"", ""Schumacher"", 386109874, 1391356532]",XML reference
+0C-05,undark,,not_recovered,3,,"[50014, ""Käthe"", ""Kuhn"", 1595237720, 1051177379]",XML reference
+0C-05,undark,,not_recovered,4,,"[50020, ""Hans"", ""Scholz"", 2723316928, 750429795]",XML reference
+0C-05,undark,,not_recovered,5,,"[20001, ""Jessica"", ""Otto"", 1637666936, 493471598]",XML reference
+0C-05,undark,,not_recovered,6,,"[20005, ""Leon"", ""Keller"", 2443859320, -212107711]",XML reference
+0C-05,undark,,not_recovered,7,,"[20007, ""Laura"", ""Lange"", 114581982, 1288455741]",XML reference
+0C-05,undark,,not_recovered,8,,"[20012, ""Finn"", ""Berger"", 1614735672, -1145207750]",XML reference
+0C-05,undark,,not_recovered,9,,"[20017, ""Moritz"", ""Schmitt"", 1052144532, -106935011]",XML reference
+0C-05,sqlite_dissect,0,complete,9,"[20017, ""Moritz"", ""Schmitt"", 1052144532, -106935011]","[20017, ""Moritz"", ""Schmitt"", 1052144532, -106935011]",0C-05.db-members.csv; offset=11779; Freeblock
+0C-05,sqlite_dissect,1,complete,8,"[20012, ""Finn"", ""Berger"", 1614735672, -1145207750]","[20012, ""Finn"", ""Berger"", 1614735672, -1145207750]",0C-05.db-members.csv; offset=11935; Freeblock
+0C-05,sqlite_dissect,2,complete,7,"[20007, ""Laura"", ""Lange"", 114581982, 1288455741]","[20007, ""Laura"", ""Lange"", 114581982, 1288455741]",0C-05.db-members.csv; offset=12082; Freeblock
+0C-05,sqlite_dissect,3,complete,6,"[20005, ""Leon"", ""Keller"", 2443859320, -212107711]","[20005, ""Leon"", ""Keller"", 2443859320, -212107711]",0C-05.db-members.csv; offset=12142; Freeblock
+0C-05,sqlite_dissect,4,complete,5,"[20001, ""Jessica"", ""Otto"", 1637666936, 493471598]","[20001, ""Jessica"", ""Otto"", 1637666936, 493471598]",0C-05.db-members.csv; offset=12259; Freeblock
+0C-05,sqlite_dissect,5,complete,3,"[50014, ""Käthe"", ""Kuhn"", 1595237720, 1051177379]","[50014, ""Käthe"", ""Kuhn"", 1595237720, 1051177379]",0C-05.db-users.csv; offset=7755; Freeblock
+0C-05,sqlite_dissect,6,complete,2,"[50011, ""Finn"", ""Schumacher"", 386109874, 1391356532]","[50011, ""Finn"", ""Schumacher"", 386109874, 1391356532]",0C-05.db-users.csv; offset=7844; Freeblock
+0C-05,sqlite_dissect,7,complete,1,"[50009, ""Adrian"", ""Schubert"", 3679030046, -220015919]","[50009, ""Adrian"", ""Schubert"", 3679030046, -220015919]",0C-05.db-users.csv; offset=7909; Freeblock
+0C-05,sqlite_dissect,8,complete,0,"[50003, ""Jan"", ""Jäger"", 661493766, -820579705]","[50003, ""Jan"", ""Jäger"", 661493766, -820579705]",0C-05.db-users.csv; offset=8102; Freeblock
+0C-05,sqlite_dissect,9,complete,4,"[50020, ""Hans"", ""Scholz"", 2723316928, 750429795]","[50020, ""Hans"", ""Scholz"", 2723316928, 750429795]",0C-05.db-users.csv; offset=7566; Unallocated Space
+0C-06,undark,0,incorrect_or_unattributed,,"[""117440512"", ""-26861"", ""0.000000""]",,CSV row 1; rowid=-1
+0C-06,undark,,not_recovered,0,,"[20001, 1633456385.0581, 1732331675.81835, -4609551559.95188, 4946013661.07632]",XML reference
+0C-06,undark,,not_recovered,1,,"[20002, -2180437784.26034, 270826376.63503, -3106198780.28808, 1688880807.10959]",XML reference
+0C-06,undark,,not_recovered,2,,"[20005, -1707003883.41537, 3220835797.59152, -2908116270.74523, -4051660135.87809]",XML reference
+0C-06,undark,,not_recovered,3,,"[20009, -4499098574.50942, 1885580572.71204, -4904715614.34898, -1679536354.11315]",XML reference
+0C-06,undark,,not_recovered,4,,"[20011, -1584551374.70018, -3849600497.09752, -2786244604.63703, -3289091898.26301]",XML reference
+0C-06,undark,,not_recovered,5,,"[20015, 545240429.01827, 4135549952.80483, 1981561913.61209, 4061054777.84809]",XML reference
+0C-06,undark,,not_recovered,6,,"[20017, -4637725394.98179, 4305609892.73042, 1725484778.5111, -2481318445.63471]",XML reference
+0C-06,sqlite_dissect,0,complete,6,"[20017, -4637725394.98179, 4305609892.73042, 1725484778.5111, -2481318445.63471]","[20017, -4637725394.98179, 4305609892.73042, 1725484778.5111, -2481318445.63471]",0C-06.db-users.csv; offset=7478; Freeblock
+0C-06,sqlite_dissect,1,complete,5,"[20015, 545240429.01827, 4135549952.80483, 1981561913.61209, 4061054777.84809]","[20015, 545240429.01827, 4135549952.80483, 1981561913.61209, 4061054777.84809]",0C-06.db-users.csv; offset=7562; Freeblock
+0C-06,sqlite_dissect,2,complete,4,"[20011, -1584551374.70018, -3849600497.09752, -2786244604.63703, -3289091898.26301]","[20011, -1584551374.70018, -3849600497.09752, -2786244604.63703, -3289091898.26301]",0C-06.db-users.csv; offset=7730; Freeblock
+0C-06,sqlite_dissect,3,complete,3,"[20009, -4499098574.50942, 1885580572.71204, -4904715614.34898, -1679536354.11315]","[20009, -4499098574.50942, 1885580572.71204, -4904715614.34898, -1679536354.11315]",0C-06.db-users.csv; offset=7814; Freeblock
+0C-06,sqlite_dissect,4,complete,2,"[20005, -1707003883.41537, 3220835797.59152, -2908116270.74523, -4051660135.87809]","[20005, -1707003883.41537, 3220835797.59152, -2908116270.74523, -4051660135.87809]",0C-06.db-users.csv; offset=7982; Freeblock
+0C-06,sqlite_dissect,5,complete,0,"[20001, 1633456385.0581, 1732331675.81835, -4609551559.95188, 4946013661.07632]","[20001, 1633456385.0581, 1732331675.81835, -4609551559.95188, 4946013661.07632]",0C-06.db-users.csv; offset=8150; Freeblock
+0C-06,sqlite_dissect,6,complete,1,"[20002, -2180437784.26034, 270826376.63503, -3106198780.28808, 1688880807.10959]","[20002, -2180437784.26034, 270826376.63503, -3106198780.28808, 1688880807.10959]",0C-06.db-users.csv; offset=8108; Freeblock
+0C-07,undark,0,incorrect_or_unattributed,,"[""117440512"", ""-31486"", ""42270981838224630872868874725424621717423057649118383619352624233703438740929624041278825329373284231376466726033641499392753210532397259543323621376325997209639724906794711576325606595153931738732822528.000000"", ""-0.000000""]",,CSV row 1; rowid=-1
+0C-07,undark,1,incorrect_or_unattributed,,"[""117440512"", ""-4177"", ""0.000000"", ""21241227.900146""]",,CSV row 2; rowid=-1
+0C-07,undark,,not_recovered,0,,"[20004, -4173688497.00954, -4513695831.18413, -3043377403.19007, 3018070612.11116]",XML reference
+0C-07,undark,,not_recovered,1,,"[20011, -4778105486.08103, -176711443.42828, 602675921.09864, -171196388.6261]",XML reference
+0C-07,undark,,not_recovered,2,,"[20012, -2466970345.6885, 1281774088.87156, 2235874103.95773, -1655670887.16462]",XML reference
+0C-07,undark,,not_recovered,3,,"[20015, -3541799801.65409, -1779594382.6342, -2247176956.03481, -3451504613.48309]",XML reference
+0C-07,undark,,not_recovered,4,,"[20017, -4222613428.35734, 1256650447.03365, 269186294.29731, 1300039936.9281]",XML reference
+0C-07,undark,,not_recovered,5,,"[20001, -432915606.2719, 388649285.48627, 1369165999.98677, 393395896.71856]",XML reference
+0C-07,undark,,not_recovered,6,,"[20003, 1094659653.53635, 1759652535.78483, -3144454917.93773, -1014637097.72315]",XML reference
+0C-07,undark,,not_recovered,7,,"[20008, -4909704811.82901, 3465509553.65668, -4172301236.15465, -342620418.10091]",XML reference
+0C-07,undark,,not_recovered,8,,"[20012, 1130730242.52929, 3419011425.42204, 2864153444.70374, 2588930445.53182]",XML reference
+0C-07,undark,,not_recovered,9,,"[20016, -2628477726.89, 4192277756.14349, -3740369392.90369, 431740598.48848]",XML reference
+0C-07,sqlite_dissect,0,complete,9,"[20016, -2628477726.89, 4192277756.14349, -3740369392.90369, 431740598.48848]","[20016, -2628477726.89, 4192277756.14349, -3740369392.90369, 431740598.48848]",0C-07.db-secondTable.csv; offset=11616; Freeblock
+0C-07,sqlite_dissect,1,complete,8,"[20012, 1130730242.52929, 3419011425.42204, 2864153444.70374, 2588930445.53182]","[20012, 1130730242.52929, 3419011425.42204, 2864153444.70374, 2588930445.53182]",0C-07.db-secondTable.csv; offset=11784; Freeblock
+0C-07,sqlite_dissect,2,complete,7,"[20008, -4909704811.82901, 3465509553.65668, -4172301236.15465, -342620418.10091]","[20008, -4909704811.82901, 3465509553.65668, -4172301236.15465, -342620418.10091]",0C-07.db-secondTable.csv; offset=11952; Freeblock
+0C-07,sqlite_dissect,3,complete,6,"[20003, 1094659653.53635, 1759652535.78483, -3144454917.93773, -1014637097.72315]","[20003, 1094659653.53635, 1759652535.78483, -3144454917.93773, -1014637097.72315]",0C-07.db-secondTable.csv; offset=12162; Freeblock
+0C-07,sqlite_dissect,4,complete,5,"[20001, -432915606.2719, 388649285.48627, 1369165999.98677, 393395896.71856]","[20001, -432915606.2719, 388649285.48627, 1369165999.98677, 393395896.71856]",0C-07.db-secondTable.csv; offset=12246; Freeblock
+0C-07,sqlite_dissect,5,complete,4,"[20017, -4222613428.35734, 1256650447.03365, 269186294.29731, 1300039936.9281]","[20017, -4222613428.35734, 1256650447.03365, 269186294.29731, 1300039936.9281]",0C-07.db-users.csv; offset=7478; Freeblock
+0C-07,sqlite_dissect,6,complete,3,"[20015, -3541799801.65409, -1779594382.6342, -2247176956.03481, -3451504613.48309]","[20015, -3541799801.65409, -1779594382.6342, -2247176956.03481, -3451504613.48309]",0C-07.db-users.csv; offset=7562; Freeblock
+0C-07,sqlite_dissect,7,complete,1,"[20011, -4778105486.08103, -176711443.42828, 602675921.09864, -171196388.6261]","[20011, -4778105486.08103, -176711443.42828, 602675921.09864, -171196388.6261]",0C-07.db-users.csv; offset=7730; Freeblock
+0C-07,sqlite_dissect,8,complete,2,"[20012, -2466970345.6885, 1281774088.87156, 2235874103.95773, -1655670887.16462]","[20012, -2466970345.6885, 1281774088.87156, 2235874103.95773, -1655670887.16462]",0C-07.db-users.csv; offset=7688; Freeblock
+0C-07,sqlite_dissect,9,complete,0,"[20004, -4173688497.00954, -4513695831.18413, -3043377403.19007, 3018070612.11116]","[20004, -4173688497.00954, -4513695831.18413, -3043377403.19007, 3018070612.11116]",0C-07.db-users.csv; offset=8024; Freeblock
+0C-08,undark,0,incorrect_or_unattributed,,"[12805218, ""Leo"", ""Ziegler"", -1086499647.277832, -4664941439.25]",,CSV row 1; rowid=-1
+0C-08,undark,1,incorrect_or_unattributed,,"[""117440512"", ""1852142178"", ""Hartma"", ""nn....3H""]",,CSV row 2; rowid=-1
+0C-08,undark,2,incorrect_or_unattributed,,"[""...................."", """", "".."", """", "".."", """", "".."", """", "".."", """", "".."", """"]",,CSV row 3; rowid=-1
+0C-08,undark,3,incorrect_or_unattributed,,"[""419430400"", ""28257"", ""rtSchol""]",,CSV row 4; rowid=-1
+0C-08,undark,,not_recovered,0,,"[50003, ""Mathilda"", ""Baumann"", -3968808007.8777, -2855672295.13809]",XML reference
+0C-08,undark,,not_recovered,1,,"[50007, ""Marie"", ""Meyer"", 95767725.76932, 186309397.77303]",XML reference
+0C-08,undark,,not_recovered,2,,"[50009, ""Yvonne"", ""Groß"", -4163455939.46216, 4206082466.62006]",XML reference
+0C-08,undark,,not_recovered,3,,"[50013, ""Katja"", ""Frank"", 1911634694.27807, -1752454562.46308]",XML reference
+0C-08,undark,,not_recovered,4,,"[50014, ""Marlon"", ""Kuhn"", -3488926323.3584, -1363406584.76735]",XML reference
+0C-08,undark,,not_recovered,5,,"[20004, ""Lennart"", ""Scholz"", 2220367266.43349, -3228886908.95815]",XML reference
+0C-08,undark,,not_recovered,6,,"[20005, ""Felix"", ""Hahn"", 1957422493.47149, 1138044584.60679]",XML reference
+0C-08,undark,,not_recovered,7,,"[20008, ""Matthias"", ""Kraus"", -4843323198.07416, 862051451.5145]",XML reference
+0C-08,undark,,not_recovered,8,,"[20017, ""Nele"", ""Hartmann"", 466968275.35842, -1979600422.54049]",XML reference
+0C-08,undark,,not_recovered,9,,"[20018, ""Eric"", ""Werner"", -1644541861.78955, -1225794505.43308]",XML reference
+0C-08,sqlite_dissect,0,complete,8,"[20017, ""Nele"", ""Hartmann"", 466968275.35842, -1979600422.54049]","[20017, ""Nele"", ""Hartmann"", 466968275.35842, -1979600422.54049]",0C-08.db-members.csv; offset=11648; Freeblock
+0C-08,sqlite_dissect,1,complete,6,"[20005, ""Felix"", ""Hahn"", 1957422493.47149, 1138044584.60679]","[20005, ""Felix"", ""Hahn"", 1957422493.47149, 1138044584.60679]",0C-08.db-members.csv; offset=12103; Freeblock
+0C-08,sqlite_dissect,2,complete,7,"[20008, ""Matthias"", ""Kraus"", -4843323198.07416, 862051451.5145]","[20008, ""Matthias"", ""Kraus"", -4843323198.07416, 862051451.5145]",0C-08.db-members.csv; offset=11987; Freeblock
+0C-08,sqlite_dissect,3,complete,5,"[20004, ""Lennart"", ""Scholz"", 2220367266.43349, -3228886908.95815]","[20004, ""Lennart"", ""Scholz"", 2220367266.43349, -3228886908.95815]",0C-08.db-members.csv; offset=12138; Freeblock
+0C-08,sqlite_dissect,4,complete,3,"[50013, ""Katja"", ""Frank"", 1911634694.27807, -1752454562.46308]","[50013, ""Katja"", ""Frank"", 1911634694.27807, -1752454562.46308]",0C-08.db-users.csv; offset=7679; Freeblock
+0C-08,sqlite_dissect,5,complete,4,"[50014, ""Marlon"", ""Kuhn"", -3488926323.3584, -1363406584.76735]","[50014, ""Marlon"", ""Kuhn"", -3488926323.3584, -1363406584.76735]",0C-08.db-users.csv; offset=7642; Freeblock
+0C-08,sqlite_dissect,6,complete,2,"[50009, ""Yvonne"", ""Groß"", -4163455939.46216, 4206082466.62006]","[50009, ""Yvonne"", ""Groß"", -4163455939.46216, 4206082466.62006]",0C-08.db-users.csv; offset=7835; Freeblock
+0C-08,sqlite_dissect,7,complete,1,"[50007, ""Marie"", ""Meyer"", 95767725.76932, 186309397.77303]","[50007, ""Marie"", ""Meyer"", 95767725.76932, 186309397.77303]",0C-08.db-users.csv; offset=7914; Freeblock
+0C-08,sqlite_dissect,8,complete,0,"[50003, ""Mathilda"", ""Baumann"", -3968808007.8777, -2855672295.13809]","[50003, ""Mathilda"", ""Baumann"", -3968808007.8777, -2855672295.13809]",0C-08.db-users.csv; offset=8073; Freeblock
+0C-08,sqlite_dissect,,not_recovered,9,,"[20018, ""Eric"", ""Werner"", -1644541861.78955, -1225794505.43308]",XML reference
+0C-09,undark,0,partial,9,"[20010, ""Leonie"", ""K..nig"", 348530428.180725, 4368401104.290039]","[20010, ""Leonie"", ""König"", 348530428.18072, 4368401104.29022]",CSV row 1; rowid=10
+0C-09,undark,1,partial,5,"[20006, ""Sophie"", ""Beck"", -130525764.60434, 2055417409.658203]","[20006, ""Sophie"", ""Beck"", -130525764.60434, 2055417409.65816]",CSV row 2; rowid=6
+0C-09,undark,2,partial,4,"[20005, ""Martin"", ""Schmitt"", -1301688368.572754, 282113875.859497]","[20005, ""Martin"", ""Schmitt"", -1301688368.57271, 282113875.85947]",CSV row 3; rowid=5
+0C-09,undark,3,partial,2,"[20003, ""Jakob"", ""Sommer"", 2604638909.736816, 4003792008.852539]","[20003, ""Jakob"", ""Sommer"", 2604638909.73695, 4003792008.85249]",CSV row 4; rowid=3
+0C-09,undark,4,partial,1,"[20002, ""Nicole"", ""Fuchs"", 952246597.014526, -4982353751.539062]","[20002, ""Nicole"", ""Fuchs"", 952246597.01448, -4982353751.53942]",CSV row 5; rowid=2
+0C-09,undark,,not_recovered,0,,"[20001, ""Eric"", ""Peters"", 1648585296.538, 179014622.78283]",XML reference
+0C-09,undark,,not_recovered,3,,"[20004, ""Maja"", ""Schröder"", -2269355173.81381, -3891489058.2168]",XML reference
+0C-09,undark,,not_recovered,6,,"[20007, ""Elsa"", ""Walter"", 156111416.94529, -952039591.94573]",XML reference
+0C-09,undark,,not_recovered,7,,"[20008, ""Andreas"", ""Franke"", 2054127411.4764, -2279814582.91403]",XML reference
+0C-09,undark,,not_recovered,8,,"[20009, ""Nele"", ""Köhler"", 2899200039.8688, 330884175.06352]",XML reference
+0C-09,sqlite_dissect,0,complete,1,"[20002, ""Nicole"", ""Fuchs"", 952246597.01448, -4982353751.53942]","[20002, ""Nicole"", ""Fuchs"", 952246597.01448, -4982353751.53942]",0C-09.db-users.csv; offset=8122; Unallocated Space
+0C-09,sqlite_dissect,1,complete,2,"[20003, ""Jakob"", ""Sommer"", 2604638909.73695, 4003792008.85249]","[20003, ""Jakob"", ""Sommer"", 2604638909.73695, 4003792008.85249]",0C-09.db-users.csv; offset=8085; Unallocated Space
+0C-09,sqlite_dissect,2,complete,4,"[20005, ""Martin"", ""Schmitt"", -1301688368.57271, 282113875.85947]","[20005, ""Martin"", ""Schmitt"", -1301688368.57271, 282113875.85947]",0C-09.db-users.csv; offset=8007; Unallocated Space
+0C-09,sqlite_dissect,3,complete,5,"[20006, ""Sophie"", ""Beck"", -130525764.60434, 2055417409.65816]","[20006, ""Sophie"", ""Beck"", -130525764.60434, 2055417409.65816]",0C-09.db-users.csv; offset=7971; Unallocated Space
+0C-09,sqlite_dissect,4,complete,9,"[20010, ""Leonie"", ""König"", 348530428.18072, 4368401104.29022]","[20010, ""Leonie"", ""König"", 348530428.18072, 4368401104.29022]",0C-09.db-users.csv; offset=7821; Unallocated Space
+0C-09,sqlite_dissect,5,incorrect_or_unattributed,,"["""", ""N!Er"", ""icPete"", 2.054517750944647e+243, 5.611560508090286e+224]",,0C-09.db-users.csv; offset=8160; Unallocated Space
+0C-09,sqlite_dissect,6,incorrect_or_unattributed,,"["""", ""     N\""NicoleFuchsA�a ���{��"", ""��x�w   $    N!EricPetersAؐڔ\""n�A�W ��� "", """", """"]",,0C-09.db-users.csv; offset=8117; Unallocated Space
+0C-09,sqlite_dissect,7,incorrect_or_unattributed,,"["""", ""     N#JakobSommerA�g�W�� A�Ԡ� G�#       N\""NicoleFuchsA�a ���{���x�w   $    N!EricPetersAؐڔ\""n�A�W ��� "", """", """", """"]",,0C-09.db-users.csv; offset=8080; Unallocated Space
+0C-09,sqlite_dissect,8,incorrect_or_unattributed,,"["""", ""N$MajaSchröder���s��\n����m$F� #       N#JakobSommerA�g�W�� A�Ԡ� G�#       N\""NicoleFuchsA�a ���{���x�w   $    N!EricPetersAؐڔ\""n�A�W ��� "", """", """", """"]",,0C-09.db-users.csv; offset=8046; Unallocated Space
+0C-09,sqlite_dissect,9,incorrect_or_unattributed,,"["""", ""     N%MartinSchmitt��e� $�HA��"", ""�S� :   �   "", 8032197894506.0, 7.013058344999172e+18]",,0C-09.db-users.csv; offset=8003; Unallocated Space
+0C-09,sqlite_dissect,10,incorrect_or_unattributed,,"["""", ""     N&SophieBeck�� � j� Aޠːj K%       N%MartinSchmitt��e� $�HA�зS� :   �    N$MajaSchröder���s��\n����m$F� #       N#JakobSommerA�g�W�� A�Ԡ� G�#       N\""NicoleFuchsA�a ���{���x�w   $    N!EricPetersAؐڔ\""n�A�W ��� "", """", """", """"]",,0C-09.db-users.csv; offset=7965; Unallocated Space
+0C-09,sqlite_dissect,11,incorrect_or_unattributed,,"["""", ""N'El"", ""saWalt"", 4.734697755152014e+180, -2.3756107782660856e+294]",,0C-09.db-users.csv; offset=7936; Unallocated Space
+0C-09,sqlite_dissect,12,incorrect_or_unattributed,,"["""", ""N(Andre"", ""asFran"", 2.1839121609044447e+209, 5.8137619249822015e+295]",,0C-09.db-users.csv; offset=7897; Unallocated Space
+0C-09,sqlite_dissect,13,incorrect_or_unattributed,,"["""", ""N)Ne"", ""leKöhl"", 4.734962856905516e+180, -9.155854172888616e+63]",,0C-09.db-users.csv; offset=7860; Unallocated Space
+0C-09,sqlite_dissect,,not_recovered,0,,"[20001, ""Eric"", ""Peters"", 1648585296.538, 179014622.78283]",XML reference
+0C-09,sqlite_dissect,,not_recovered,3,,"[20004, ""Maja"", ""Schröder"", -2269355173.81381, -3891489058.2168]",XML reference
+0C-09,sqlite_dissect,,not_recovered,6,,"[20007, ""Elsa"", ""Walter"", 156111416.94529, -952039591.94573]",XML reference
+0C-09,sqlite_dissect,,not_recovered,7,,"[20008, ""Andreas"", ""Franke"", 2054127411.4764, -2279814582.91403]",XML reference
+0C-09,sqlite_dissect,,not_recovered,8,,"[20009, ""Nele"", ""Köhler"", 2899200039.8688, 330884175.06352]",XML reference
+0C-10,undark,0,incorrect_or_unattributed,,"[12802651, ""Paula"", ""Schreiber"", 3921282803.137207, 3828334407.335449]",,CSV row 1; rowid=10
+0C-10,undark,1,incorrect_or_unattributed,,"[12802395, ""Marlon"", ""Meier"", 2817642711.018066, 2016484223.779541]",,CSV row 2; rowid=9
+0C-10,undark,2,incorrect_or_unattributed,,"[12802139, ""Dirk"", ""Martin"", 194571211.559021, -2434495830.645508]",,CSV row 3; rowid=8
+0C-10,undark,3,incorrect_or_unattributed,,"[12801627, ""Ernst"", ""Hofmann"", 1655657839.335449, -920109700.374268]",,CSV row 4; rowid=6
+0C-10,undark,4,incorrect_or_unattributed,,"[12800859, ""Annika"", ""Kaiser"", 3099127047.741211, -2935678804.263672]",,CSV row 5; rowid=3
+0C-10,undark,5,incorrect_or_unattributed,,"[12800603, ""Anja"", ""Hoffmann"", 4412197651.999023, -3095201425.298828]",,CSV row 6; rowid=2
+0C-10,undark,6,partial,19,"[20010, ""Sebastian"", ""Pfeiffer"", -4479676177.482422, -4979541380.880859]","[20010, ""Sebastian"", ""Pfeiffer"", -4479676177.4829, -4979541380.88019]",CSV row 7; rowid=10
+0C-10,undark,7,partial,18,"[20009, ""Andre"", ""Richter"", 1300124030.699951, -4104104707.53125]","[20009, ""Andre"", ""Richter"", 1300124030.70001, -4104104707.53168]",CSV row 8; rowid=9
+0C-10,undark,8,partial,15,"[20006, ""August"", ""Huber"", -3631354886.401367, 2393700777.270508]","[20006, ""August"", ""Huber"", -3631354886.40114, 2393700777.27069]",CSV row 9; rowid=6
+0C-10,undark,9,partial,13,"[20004, ""Helene"", ""Sch..fer"", 2879615238.811523, -4062728909.338867]","[20004, ""Helene"", ""Schäfer"", 2879615238.81164, -4062728909.33916]",CSV row 10; rowid=4
+0C-10,undark,10,partial,11,"[20002, ""Anna"", ""Hahn"", 4764689309.413086, 4624428534.705078]","[20002, ""Anna"", ""Hahn"", 4764689309.41294, 4624428534.70539]",CSV row 11; rowid=2
+0C-10,undark,,not_recovered,0,,"[50001, ""Berta"", ""Engel"", -4811195414.42543, 252138541.66313]",XML reference
+0C-10,undark,,not_recovered,1,,"[50002, ""Anja"", ""Hoffmann"", 4412197651.99916, -3095201425.29868]",XML reference
+0C-10,undark,,not_recovered,2,,"[50003, ""Annika"", ""Kaiser"", 3099127047.74138, -2935678804.26332]",XML reference
+0C-10,undark,,not_recovered,3,,"[50004, ""Sebastian"", ""Klein"", -3507961718.60209, -4501686715.28887]",XML reference
+0C-10,undark,,not_recovered,4,,"[50005, ""Stefanie"", ""Wagner"", -4207398588.40005, -4743079859.64375]",XML reference
+0C-10,undark,,not_recovered,5,,"[50006, ""Ernst"", ""Hofmann"", 1655657839.33534, -920109700.37436]",XML reference
+0C-10,undark,,not_recovered,6,,"[50007, ""Moritz"", ""Berger"", 2784880198.43813, 1908973314.29132]",XML reference
+0C-10,undark,,not_recovered,7,,"[50008, ""Dirk"", ""Martin"", 194571211.55903, -2434495830.64508]",XML reference
+0C-10,undark,,not_recovered,8,,"[50009, ""Marlon"", ""Meier"", 2817642711.01805, 2016484223.77952]",XML reference
+0C-10,undark,,not_recovered,9,,"[50010, ""Paula"", ""Schreiber"", 3921282803.13745, 3828334407.3353]",XML reference
+0C-10,undark,,not_recovered,10,,"[20001, ""Anni"", ""Schneider"", -4107344401.58463, 4266376020.04519]",XML reference
+0C-10,undark,,not_recovered,12,,"[20003, ""Clara"", ""Becker"", 4881348675.06165, -1200275060.814]",XML reference
+0C-10,undark,,not_recovered,14,,"[20005, ""Mia"", ""Müller"", 2846244404.95216, 3803140948.90055]",XML reference
+0C-10,undark,,not_recovered,16,,"[20007, ""Rudolf"", ""Weber"", -589815003.60641, 1560998785.57073]",XML reference
+0C-10,undark,,not_recovered,17,,"[20008, ""Marie"", ""Kaiser"", 389333188.24942, 2033748015.31143]",XML reference
+0C-10,sqlite_dissect,0,complete,11,"[20002, ""Anna"", ""Hahn"", 4764689309.41294, 4624428534.70539]","[20002, ""Anna"", ""Hahn"", 4764689309.41294, 4624428534.70539]",0C-10.db-members.csv; offset=12218; Unallocated Space
+0C-10,sqlite_dissect,1,complete,13,"[20004, ""Helene"", ""Schäfer"", 2879615238.81164, -4062728909.33916]","[20004, ""Helene"", ""Schäfer"", 2879615238.81164, -4062728909.33916]",0C-10.db-members.csv; offset=12141; Unallocated Space
+0C-10,sqlite_dissect,2,complete,15,"[20006, ""August"", ""Huber"", -3631354886.40114, 2393700777.27069]","[20006, ""August"", ""Huber"", -3631354886.40114, 2393700777.27069]",0C-10.db-members.csv; offset=12068; Unallocated Space
+0C-10,sqlite_dissect,3,complete,18,"[20009, ""Andre"", ""Richter"", 1300124030.70001, -4104104707.53168]","[20009, ""Andre"", ""Richter"", 1300124030.70001, -4104104707.53168]",0C-10.db-members.csv; offset=11956; Unallocated Space
+0C-10,sqlite_dissect,4,complete,19,"[20010, ""Sebastian"", ""Pfeiffer"", -4479676177.4829, -4979541380.88019]","[20010, ""Sebastian"", ""Pfeiffer"", -4479676177.4829, -4979541380.88019]",0C-10.db-members.csv; offset=11913; Unallocated Space
+0C-10,sqlite_dissect,5,incorrect_or_unattributed,,"["""", ""N!An"", ""niSchneid"", 4.864670839459804e+180, -5.482835421568609e-52]",,0C-10.db-members.csv; offset=12253; Unallocated Space
+0C-10,sqlite_dissect,6,incorrect_or_unattributed,,"["""", ""b'\\x02\\x15\\x15\\x07\\x07N'"", ""b'\""AnnaHahnA\\xf1\\xbf\\xf69\\xd6\\x9bgA\\xf1:2\\xdfkIG\\x00\\x00\\x00\\'\\x15\\x1f\\x07\\x07N!AnniSchneider\\xc1\\xee\\x9a#B2\\xb5JA\\xef\\xc9wj\\x81r2'"", """", """"]",,0C-10.db-members.csv; offset=12213; Unallocated Space
+0C-10,sqlite_dissect,7,incorrect_or_unattributed,,"["""", ""N#Cla"", ""raBeck"", 4.735012654279141e+180, -6.784955446668011e+291]",,0C-10.db-members.csv; offset=12182; Unallocated Space
+0C-10,sqlite_dissect,8,incorrect_or_unattributed,,"["""", ""b'\\x02\\x19\\x1d\\x07\\x07N$HeleneSch\\xc3\\xa4ferA\\xe5tn \\xd9\\xf8\\xf4\\xc1\\xeeE\\nY\\xaa\\xdaf\\x00\\x00\\x00n\\x17\\x19\\x07\\x07N#ClaraBeckerA\\xf2/7\\x840\\xfc\\x85\\xc1\\xd1\\xe2\\xaf\\x9d4\\x18\\x93 \\x02\\x06\\x02\\x15\\x15\\x07\\x07N\""AnnaHahnA\\xf1\\xbf\\xf69\\xd6\\x9bgA\\xf1:2\\xdfkIG\\x00\\x00\\x00\\'\\x15\\x1f\\x07\\x07N!AnniSchneider\\xc1\\xee\\x9a#B2\\xb5JA\\xef\\xc9wj\\x81r2'"", """", """", """"]",,0C-10.db-members.csv; offset=12135; Unallocated Space
+0C-10,sqlite_dissect,9,incorrect_or_unattributed,,"["""", ""N%M"", ""iaMüll"", 4.734961295557263e+180, 3.2037777909376852e+270]",,0C-10.db-members.csv; offset=12106; Unallocated Space
+0C-10,sqlite_dissect,10,incorrect_or_unattributed,,"["""", ""b'\\x02\\x19\\x17\\x07\\x07N&AugustHuber\\xc1\\xeb\\x0eB\\x80\\xcc\\xd6$A\\xe1\\xd5\\x9f5(\\xa9~\\x0f\\x92\\x00$\\x13\\x1b\\x07\\x07N%MiaM\\xc3\\xbcllerA\\xe54\\xc7\\xc6\\x9ex\\x18A\\xecU\\xeaj\\x9c\\xd1N&\\x04\\x06\\x02\\x19\\x1d\\x07\\x07N$HeleneSch\\xc3\\xa4ferA\\xe5tn \\xd9\\xf8\\xf4\\xc1\\xeeE\\nY\\xaa\\xdaf\\x00\\x00\\x00n\\x17\\x19\\x07\\x07N#ClaraBeckerA\\xf2/7\\x840\\xfc\\x85\\xc1\\xd1\\xe2\\xaf\\x9d4\\x18\\x93 \\x02\\x06\\x02\\x15\\x15\\x07\\x07N\""AnnaHahnA\\xf1\\xbf\\xf69\\xd6\\x9bgA\\xf1:2\\xdfkIG\\x00\\x00\\x00\\'\\x15\\x1f\\x07\\x07N!AnniSchneider\\xc1\\xee\\x9a#B2\\xb5JA\\xef\\xc9wj\\x81r2'"", """", """", """"]",,0C-10.db-members.csv; offset=12060; Unallocated Space
+0C-10,sqlite_dissect,11,incorrect_or_unattributed,,"["""", ""N'Rudo"", ""lfWeb"", 4.864492665631808e+180, -4.313430659098766e-160]",,0C-10.db-members.csv; offset=12032; Unallocated Space
+0C-10,sqlite_dissect,12,incorrect_or_unattributed,,"["""", ""N(Mar"", ""ieKais"", 4.734779259958536e+180, -3.0945138736649093e+125]",,0C-10.db-members.csv; offset=11995; Unallocated Space
+0C-10,sqlite_dissect,13,incorrect_or_unattributed,,"["""", ""b'\\x02\\x17\\x1b\\x07\\x07N)AndreRichterA\\xd3_\\x94_\\xac\\xcc\\xf7'"", ""b'\\xc1\\xee\\x93\\xf5`q\\x03\\x86\\x00\\x00\\x01)'"", 1.0, 1.6643692652475384e+18]",,0C-10.db-members.csv; offset=11952; Unallocated Space
+0C-10,sqlite_dissect,14,complete,1,"[50002, ""Anja"", ""Hoffmann"", 4412197651.99916, -3095201425.29868]","[50002, ""Anja"", ""Hoffmann"", 4412197651.99916, -3095201425.29868]",0C-10.db-users.csv; offset=8119; Unallocated Space
+0C-10,sqlite_dissect,15,complete,2,"[50003, ""Annika"", ""Kaiser"", 3099127047.74138, -2935678804.26332]","[50003, ""Annika"", ""Kaiser"", 3099127047.74138, -2935678804.26332]",0C-10.db-users.csv; offset=8080; Unallocated Space
+0C-10,sqlite_dissect,16,complete,5,"[50006, ""Ernst"", ""Hofmann"", 1655657839.33534, -920109700.37436]","[50006, ""Ernst"", ""Hofmann"", 1655657839.33534, -920109700.37436]",0C-10.db-users.csv; offset=7959; Unallocated Space
+0C-10,sqlite_dissect,17,complete,7,"[50008, ""Dirk"", ""Martin"", 194571211.55903, -2434495830.64508]","[50008, ""Dirk"", ""Martin"", 194571211.55903, -2434495830.64508]",0C-10.db-users.csv; offset=7883; Unallocated Space
+0C-10,sqlite_dissect,18,complete,8,"[50009, ""Marlon"", ""Meier"", 2817642711.01805, 2016484223.77952]","[50009, ""Marlon"", ""Meier"", 2817642711.01805, 2016484223.77952]",0C-10.db-users.csv; offset=7845; Unallocated Space
+0C-10,sqlite_dissect,19,complete,9,"[50010, ""Paula"", ""Schreiber"", 3921282803.13745, 3828334407.3353]","[50010, ""Paula"", ""Schreiber"", 3921282803.13745, 3828334407.3353]",0C-10.db-users.csv; offset=7804; Unallocated Space
+0C-10,sqlite_dissect,20,incorrect_or_unattributed,,"["""", "" �QBe"", ""rtaEn"", 1.1932316227710053e+190, 1.6623039702821367e+187]",,0C-10.db-users.csv; offset=8159; Unallocated Space
+0C-10,sqlite_dissect,21,incorrect_or_unattributed,,"["""", ""b'\\x03\\x15\\x1d\\x07\\x07\\x00\\xc3RA'"", ""njaHoffmannA"", -3985.0, -3.6971034651183084e+18]",,0C-10.db-users.csv; offset=8115; Unallocated Space
+0C-10,sqlite_dissect,22,incorrect_or_unattributed,,"["""", ""b'\\x03\\x19\\x19\\x07\\x07\\x00\\xc3SAnnikaKaiserA\\xe7\\x17\\x1d\\xa0\\xf7\\xb9c\\xc1\\xe5\\xdf\\\\\\xea\\x88m\\x1e%\\x02\\x06\\x03\\x15\\x1d\\x07\\x07\\x00\\xc3RAnjaHoffmannA\\xf0o\\xcc\\xb1?\\xfc\\x8f\\xc1\\xe7\\x0f\\xa0\\xd2)\\x8e\\xc9\\x00\\x00\\x00%\\x17\\x17\\x07\\x07\\x00\\xc3QBertaEngel\\xc1\\xf1\\xecPAf\\xce\\x90A\\xae\\x0e\\xa8[S\\x85\\xc6'"", """", """", """"]",,0C-10.db-users.csv; offset=8073; Unallocated Space
+0C-10,sqlite_dissect,23,incorrect_or_unattributed,,"["""", "" �TSebast"", ""ianKl"", 3.2979113188294427e+180, -1.324775545853881e+93]",,0C-10.db-users.csv; offset=8040; Unallocated Space
+0C-10,sqlite_dissect,24,incorrect_or_unattributed,,"["""", "" �UStefa"", ""nieWag"", 6.202390395526179e+223, -5.2227959667179003e-247]",,0C-10.db-users.csv; offset=7999; Unallocated Space
+0C-10,sqlite_dissect,25,incorrect_or_unattributed,,"["""", ""      �VErnst"", ""HofmannAث�[�v6��k�B/�  � y     �UStefanieWagner��X�׌�6��Z{:L� � )     �TSebastianKlein��\""���DR���$���6%        �SAnnikaKaiserA�  ���c���\\�m %        �RAnjaHoffmannA�o̱?���� ��)��   %     �QBertaEngel���PAfΐA� �[S��"", """", """"]",,0C-10.db-users.csv; offset=7951; Unallocated Space
+0C-10,sqlite_dissect,26,incorrect_or_unattributed,,"["""", "" �WMor"", ""itzBer"", 1.1944281267082326e+190, -7.131297220757059e+67]",,0C-10.db-users.csv; offset=7921; Unallocated Space
+0C-10,sqlite_dissect,27,incorrect_or_unattributed,,"["""", ""b'\\x03\\x15\\x19\\x07\\x07\\x00\\xc3XDirkMartinA\\xa71\\xd7\\x97\\x1e9.\\xc1\\xe2#'"", ""n�Ԥ  ; '     �WMoritzBergerA俼�� )A�r'����%        �VErnstHofmannAث�[�v6��k�B/�  � y     �UStefanieWagner��X�׌�6��Z{:L� � )     �TSebastianKlein��\""���DR���$���6%        �SAnnikaKaiserA�  ���c���\\�m %        �RAnjaHoffmannA�o̱?���� ��)��   %     �QBertaEngel���PAfΐA� �[S��"", """", """"]",,0C-10.db-users.csv; offset=7875; Unallocated Space
+0C-10,sqlite_dissect,,not_recovered,0,,"[50001, ""Berta"", ""Engel"", -4811195414.42543, 252138541.66313]",XML reference
+0C-10,sqlite_dissect,,not_recovered,3,,"[50004, ""Sebastian"", ""Klein"", -3507961718.60209, -4501686715.28887]",XML reference
+0C-10,sqlite_dissect,,not_recovered,4,,"[50005, ""Stefanie"", ""Wagner"", -4207398588.40005, -4743079859.64375]",XML reference
+0C-10,sqlite_dissect,,not_recovered,6,,"[50007, ""Moritz"", ""Berger"", 2784880198.43813, 1908973314.29132]",XML reference
+0C-10,sqlite_dissect,,not_recovered,10,,"[20001, ""Anni"", ""Schneider"", -4107344401.58463, 4266376020.04519]",XML reference
+0C-10,sqlite_dissect,,not_recovered,12,,"[20003, ""Clara"", ""Becker"", 4881348675.06165, -1200275060.814]",XML reference
+0C-10,sqlite_dissect,,not_recovered,14,,"[20005, ""Mia"", ""Müller"", 2846244404.95216, 3803140948.90055]",XML reference
+0C-10,sqlite_dissect,,not_recovered,16,,"[20007, ""Rudolf"", ""Weber"", -589815003.60641, 1560998785.57073]",XML reference
+0C-10,sqlite_dissect,,not_recovered,17,,"[20008, ""Marie"", ""Kaiser"", 389333188.24942, 2033748015.31143]",XML reference

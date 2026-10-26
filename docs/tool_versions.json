@@ -1,0 +1,43 @@
+{
+  "undark": {
+    "version": "0.7.1",
+    "commit": "2e0bd78bcb92597362c1fd93d0e392afe1adcbaa",
+    "source": "https://github.com/inflex/undark",
+    "patch": "Rename local ntohll to undark_ntohll to avoid macOS macro collision; no algorithm change",
+    "command": [
+      "tools/undark/undark",
+      "-i",
+      "DATABASE"
+    ]
+  },
+  "sqlite_dissect": {
+    "version": "1.0.0",
+    "commit": "6c0a742d70c27c3b48fd0bd275eac6bf21f96737",
+    "source": "https://github.com/dod-cyber-crime-center/sqlite-dissect",
+    "patch": "Three empty hash accumulator initializations changed from str to bytes; docs/evidence/dissect_bytes_compatibility.patch",
+    "command": [
+      ".venv/bin/sqlite_dissect",
+      "DATABASE",
+      "-n",
+      "-c",
+      "-f",
+      "-e",
+      "csv",
+      "-d",
+      "OUTPUT"
+    ],
+    "upstream_carved_cell_sha256": "c9becefd0207ec30e8b162f26473d0f98e3c5d50ee7bb15ff5fadff8b09b703b",
+    "archive_url": "https://codeload.github.com/dod-cyber-crime-center/sqlite-dissect/zip/6c0a742d70c27c3b48fd0bd275eac6bf21f96737",
+    "archive_sha256": "dd5c36245835d486f5c2882e4764638aa5ac7c27d8f0a74c9fa5fac45d8969ac"
+  },
+  "compiler": "Apple clang version 14.0.3 (clang-1403.0.22.14.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "hashes": {
+    "tools/undark/undark.c": "25a863b8f4d81e8e5020fee086cec412d9041f475371613f813b1e83229e1128",
+    "tools/undark/varint.c": "01e5bed59759c3e9f7b6324898a8a2e4e94af328deecb3a11902ec176bf19472",
+    "tools/undark/varint.h": "0df7a0b4e196e95b52569a3b0375fab3bdcb069d94f1a8ee3cc78361cabb660e",
+    "tools/undark/undark.portable.c": "7936f8b05390bcfc2b8a03e41c97e6a50479b385adc05f128a7401343e825380",
+    "tools/undark/undark": "c24653096c68ec5031beb1eab5cb2f8e47b57a498820e247e3efdeba299deac1",
+    ".venv/lib/python3.13/site-packages/sqlite_dissect/carving/carved_cell.py": "59c647ac01803dbfeb15141c33f7aebef8c26efd857e59da34e2f619cdeb26cd",
+    "tools/undark/LICENSE": "b7d627f829933c36aa0c8e94f6af6eaeda36484ca4361ca76b1d0b5b098370cc"
+  }
+}

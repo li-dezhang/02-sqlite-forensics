@@ -1,0 +1,547 @@
+{
+  "run_id": "final-20261021",
+  "started_at": "2026-10-21T04:30:17.477374+00:00",
+  "finished_at": "2026-10-21T04:30:20.335930+00:00",
+  "python": "3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 15.0.0 (clang-1500.1.0.2.5)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "sqlite_version": "3.49.1",
+  "publisher_checksums_verified": 556,
+  "events": [
+    {
+      "case": "0C-01",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-01.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.9382412090053549,
+      "stdout": "data/interim/runs/final-20261021/0C-01/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-01/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 1,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-01/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-01/undark/stdout.txt": "d29e09507ddb168699cf7ee9a0ebb9481c7d5ede2751b95123f246e2acf063df"
+      }
+    },
+    {
+      "case": "0C-01",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-01.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-01/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.2977319159981562,
+      "stdout": "data/interim/runs/final-20261021/0C-01/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-01/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 6,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-01/sqlite_dissect/csv/0C-01.db-users.csv": "48550073c0475e5eff52cc7d82617b857a51554f7faeae4f117a6a166823e44a",
+        "data/interim/runs/final-20261021/0C-01/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-01/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-02",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-02.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.005323958001099527,
+      "stdout": "data/interim/runs/final-20261021/0C-02/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-02/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 2,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-02/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-02/undark/stdout.txt": "b9d627b4791152d526639f5bd569ac5d7aada25db859071bea93aba3df822050"
+      }
+    },
+    {
+      "case": "0C-02",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-02.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-02/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.12786087499989662,
+      "stdout": "data/interim/runs/final-20261021/0C-02/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-02/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 10,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-02/sqlite_dissect/csv/0C-02.db-secondTable.csv": "f0314c88995bcab0954d0f0907c85f9cdb9832a6bc4445d833bad8091afc8445",
+        "data/interim/runs/final-20261021/0C-02/sqlite_dissect/csv/0C-02.db-users.csv": "6dd91791b6adfe54311c954799a7470f438eb1068e130938c9d7edd880958d27",
+        "data/interim/runs/final-20261021/0C-02/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-02/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-03",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-03.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.005007291998481378,
+      "stdout": "data/interim/runs/final-20261021/0C-03/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-03/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 1,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-03/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-03/undark/stdout.txt": "1b58b4ded39c3e30e162da7df2a263e328e31c2bf5eefe10c3af7aa8168e1023"
+      }
+    },
+    {
+      "case": "0C-03",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-03.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-03/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.18125712500477675,
+      "stdout": "data/interim/runs/final-20261021/0C-03/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-03/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 51,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-03/sqlite_dissect/csv/0C-03.db-users.csv": "7f41b0242d3ea085ca2f7fb25b92092e10a9d024fdcdcffd7a49383a97ea1143",
+        "data/interim/runs/final-20261021/0C-03/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-03/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-04",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-04.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.005115000007208437,
+      "stdout": "data/interim/runs/final-20261021/0C-04/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-04/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 1,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-04/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-04/undark/stdout.txt": "80d9a84f67f998622141ce8e90be490ebc3db0a2f00bbb71c0cd4ea7ac521c0c"
+      }
+    },
+    {
+      "case": "0C-04",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-04.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-04/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.17996483399474528,
+      "stdout": "data/interim/runs/final-20261021/0C-04/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-04/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 83,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-04/sqlite_dissect/csv/0C-04.db-members.csv": "df3b2338598d6ed011bb14bdf95144be15d4035e006fbb9cd3fb92982d2bc27a",
+        "data/interim/runs/final-20261021/0C-04/sqlite_dissect/csv/0C-04.db-users.csv": "fe733137974ab346fa04a63273c5a8f2808a339516a5dc921486f9c294e3927e",
+        "data/interim/runs/final-20261021/0C-04/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-04/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-05",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-05.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.00540141700184904,
+      "stdout": "data/interim/runs/final-20261021/0C-05/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-05/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 1,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-05/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-05/undark/stdout.txt": "bd64ad3c0d728435917e222c5f36b235e493c8ce8a6c8883038cf48250a55e8a"
+      }
+    },
+    {
+      "case": "0C-05",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-05.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-05/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.18489779200172052,
+      "stdout": "data/interim/runs/final-20261021/0C-05/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-05/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 10,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-05/sqlite_dissect/csv/0C-05.db-members.csv": "420500d06504d869b69684c7bd14c931e74087b77ae395c3606eb40cd9842f38",
+        "data/interim/runs/final-20261021/0C-05/sqlite_dissect/csv/0C-05.db-users.csv": "ef2aabdf105433a9015320de27c6112cef6c03f76820bcd92e1a1b3480e5cf6e",
+        "data/interim/runs/final-20261021/0C-05/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-05/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-06",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-06.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.0052469579968601465,
+      "stdout": "data/interim/runs/final-20261021/0C-06/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-06/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 1,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-06/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-06/undark/stdout.txt": "b173923980a1a59ed9279e633ccad3257ff3d6db4ca0dea22b493fc8e9887531"
+      }
+    },
+    {
+      "case": "0C-06",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-06.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-06/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.1844037079863483,
+      "stdout": "data/interim/runs/final-20261021/0C-06/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-06/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 7,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-06/sqlite_dissect/csv/0C-06.db-users.csv": "459a48f2a8075e0b607fc6f33dc01c0ce1e3d3130cc0ea19a29439ea934dfad7",
+        "data/interim/runs/final-20261021/0C-06/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-06/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-07",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-07.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.005432332996861078,
+      "stdout": "data/interim/runs/final-20261021/0C-07/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-07/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 2,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-07/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-07/undark/stdout.txt": "21c1def685fe1b9e37a6daaa3d7179165d54fbaa46f6b0a480c60906de8b1175"
+      }
+    },
+    {
+      "case": "0C-07",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-07.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-07/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.1296071669930825,
+      "stdout": "data/interim/runs/final-20261021/0C-07/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-07/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 10,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-07/sqlite_dissect/csv/0C-07.db-secondTable.csv": "147f8c0ed300874188935ea545324e66ceabf6f826ca2771880137d90c86c59c",
+        "data/interim/runs/final-20261021/0C-07/sqlite_dissect/csv/0C-07.db-users.csv": "f7863839bc30fc710b11e4b900dbef7ed7612c28ec3b0246900768cf09df6801",
+        "data/interim/runs/final-20261021/0C-07/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-07/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-08",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-08.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.005872082998394035,
+      "stdout": "data/interim/runs/final-20261021/0C-08/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-08/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 4,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-08/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-08/undark/stdout.txt": "77ce6dc5008ade52de82e8f4bca1ca4d94df0ac2ecf905f4a3efb3cea0b98576"
+      }
+    },
+    {
+      "case": "0C-08",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-08.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-08/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.13209508299769368,
+      "stdout": "data/interim/runs/final-20261021/0C-08/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-08/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 9,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-08/sqlite_dissect/csv/0C-08.db-members.csv": "f5982a176e60e7f7090daceee60c05d0d61d512ca86e4c489ac05c652c3416ee",
+        "data/interim/runs/final-20261021/0C-08/sqlite_dissect/csv/0C-08.db-users.csv": "d784c146115671b27885853007a1d72d57816d9ed70df673e25fff0de0e8db60",
+        "data/interim/runs/final-20261021/0C-08/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-08/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-09",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-09.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.005364917000406422,
+      "stdout": "data/interim/runs/final-20261021/0C-09/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-09/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 5,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-09/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-09/undark/stdout.txt": "0ad067b0a1b57aead3d06adc5306f2be6982cf2b8f3f0c43bc367c3c3ade7f02"
+      }
+    },
+    {
+      "case": "0C-09",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-09.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-09/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.18258533300831914,
+      "stdout": "data/interim/runs/final-20261021/0C-09/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-09/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 14,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-09/sqlite_dissect/csv/0C-09.db-users.csv": "f0225c05118e2e9e4c23b825aeba1428113d5de02acfe8c63d79ecbd4e29d988",
+        "data/interim/runs/final-20261021/0C-09/sqlite_dissect/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-09/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "case": "0C-10",
+      "tool": "undark",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-10.db"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.005356790992664173,
+      "stdout": "data/interim/runs/final-20261021/0C-10/undark/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-10/undark/stderr.txt",
+      "status": "completed",
+      "candidates": 11,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-10/undark/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "data/interim/runs/final-20261021/0C-10/undark/stdout.txt": "0bd8dddc2c16bedaf77bda2eb31f946bc0d568e04e8c3a4b0e70dbe911a245f9"
+      }
+    },
+    {
+      "case": "0C-10",
+      "tool": "sqlite_dissect",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "data/raw/sqlite_forensic_corpus_v2.0/0C/0C-10.db",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "data/interim/runs/final-20261021/0C-10/sqlite_dissect/csv"
+      ],
+      "returncode": 0,
+      "timeout": false,
+      "seconds": 0.1323188329988625,
+      "stdout": "data/interim/runs/final-20261021/0C-10/sqlite_dissect/stdout.txt",
+      "stderr": "data/interim/runs/final-20261021/0C-10/sqlite_dissect/stderr.txt",
+      "status": "completed",
+      "candidates": 28,
+      "output_hashes": {
+        "data/interim/runs/final-20261021/0C-10/sqlite_dissect/csv/0C-10.db-members.csv": "8095c5a2f38b3568f7c8034dfbdd6fc082325fb3699aa8ffad5bcbf3c491b511",
+        "data/interim/runs/final-20261021/0C-10/sqlite_dissect/csv/0C-10.db-users.csv": "39a81ab0b31323f2c6fdc134f3771a21289faffc17fb4f9f54e67bba80671595",
+        "data/interim/runs/final-20261021/0C-10/sqlite_dissect/stderr.txt": "02226c5bfc4685adf8754fae05e18327644f28c8fdb596fd37c60c0b605d208c",
+        "data/interim/runs/final-20261021/0C-10/sqlite_dissect/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "source_hashes": {
+    "src/p2study/__init__.py": "8de47f64acba01505d5e4078dd26e04c4ad7d9a3c60188445f916eea4a68732e",
+    "src/p2study/corpus.py": "10d29d1ca52c683be237f26c13efaa5d05d7150532649ed9a2c9081188bc436d",
+    "src/p2study/scoring.py": "c3ae7a25adbd00cd592a0a46ff488c018091e0d63ded3eed5811a5d12759f36c",
+    "scripts/acquire.py": "d1d9d78a72bd15d166fc7eb2752020ca6d42b1202756986d458823dfec44cc53",
+    "scripts/run_study.py": "b9b9a39fd4505d50b72ff583ad0e14e9178ea4c783ef65cd44a38a0f8e66e938",
+    "scripts/setup_tools.py": "649288b8300a9deda085d497c0f8df28887aeb18fd2fed008e220fcaba52536f",
+    "scripts/summarize.py": "88464c75f16ecb180d98fb84b0c7b293d03365673e6d09a97fb1fdacf63c513a"
+  },
+  "tools": {
+    "undark": {
+      "version": "0.7.1",
+      "commit": "2e0bd78bcb92597362c1fd93d0e392afe1adcbaa",
+      "source": "https://github.com/inflex/undark",
+      "patch": "Rename local ntohll to undark_ntohll to avoid macOS macro collision; no algorithm change",
+      "command": [
+        "tools/undark/undark",
+        "-i",
+        "DATABASE"
+      ]
+    },
+    "sqlite_dissect": {
+      "version": "1.0.0",
+      "commit": "6c0a742d70c27c3b48fd0bd275eac6bf21f96737",
+      "source": "https://github.com/dod-cyber-crime-center/sqlite-dissect",
+      "patch": "Three empty hash accumulator initializations changed from str to bytes; docs/evidence/dissect_bytes_compatibility.patch",
+      "command": [
+        ".venv/bin/sqlite_dissect",
+        "DATABASE",
+        "-n",
+        "-c",
+        "-f",
+        "-e",
+        "csv",
+        "-d",
+        "OUTPUT"
+      ],
+      "upstream_carved_cell_sha256": "c9becefd0207ec30e8b162f26473d0f98e3c5d50ee7bb15ff5fadff8b09b703b"
+    },
+    "compiler": "Apple clang version 14.0.3 (clang-1403.0.22.14.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+    "hashes": {
+      "tools/undark/undark.c": "25a863b8f4d81e8e5020fee086cec412d9041f475371613f813b1e83229e1128",
+      "tools/undark/varint.c": "01e5bed59759c3e9f7b6324898a8a2e4e94af328deecb3a11902ec176bf19472",
+      "tools/undark/varint.h": "0df7a0b4e196e95b52569a3b0375fab3bdcb069d94f1a8ee3cc78361cabb660e",
+      "tools/undark/undark.portable.c": "7936f8b05390bcfc2b8a03e41c97e6a50479b385adc05f128a7401343e825380",
+      "tools/undark/undark": "c24653096c68ec5031beb1eab5cb2f8e47b57a498820e247e3efdeba299deac1",
+      ".venv/lib/python3.13/site-packages/sqlite_dissect/carving/carved_cell.py": "59c647ac01803dbfeb15141c33f7aebef8c26efd857e59da34e2f619cdeb26cd",
+      "tools/undark/LICENSE": "b7d627f829933c36aa0c8e94f6af6eaeda36484ca4361ca76b1d0b5b098370cc"
+    }
+  },
+  "postprocessing": {
+    "scripts": {
+      "scripts/summarize.py": "88464c75f16ecb180d98fb84b0c7b293d03365673e6d09a97fb1fdacf63c513a",
+      "scripts/error_analysis.py": "b6b3fd25617d44ab57cd32182722361ec29e2a618740ee8df387bcde6bc2fc48",
+      "scripts/verify.py": "f9e3640e8c4c4c7c36ef166d067a96d5c18252deede8ad5c598b0b18ced977bc"
+    },
+    "outputs": "CSV-derived figures, sensitivity, observed failure examples and verification.json",
+    "reproduction_run": "local-reproduction",
+    "same_aggregate_and_per_case_metrics": true
+  }
+}
